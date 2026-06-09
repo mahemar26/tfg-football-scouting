@@ -19,9 +19,9 @@ El sistema se construye sobre una arquitectura Medallion en PostgreSQL (Bronze �
 
 ## Estructura del repositorio
 
-- `src/` — código fuente reutilizable. `etl/` para la carga de los datos crudos, `features/` para la ingeniería de variables, `models/` con la lógica del motor de similitud (`similarity.py`) y el modelo de xG persistido, `utils/` para utilidades comunes.
-- `sql/` — esquemas de las capas de la base de datos (`schema_bronze.sql`, `schema_silver.sql`).
-- `notebooks/` — el pipeline analítico, ejecutable en orden:
+- `src/` — código fuente reutilizable. `etl/` para la carga de los datos crudos (`load_wyscout.py`) y `models/` con la lógica del motor de similitud (`similarity.py`) y el modelo de xG persistido.
+- `sql/` — esquemas de las capas de la base de datos: `schema_bronze.sql`, `schema_silver.sql` y `schema_gold.sql`.
+- `notebooks/` — el pipeline analítico, ejecutable en orden. Cada notebook se publica ya ejecutado y acompañado de una exportación `.html` autocontenida que reproduce su salida (código, tablas y figuras) sin necesidad de un entorno:
   - `01_data_validation` — validación de los datos crudos.
   - `02_EDA_events` — análisis exploratorio de los eventos.
   - `03_xGModel` — modelo de goles esperados (XGBoost con calibración isotónica).
@@ -29,9 +29,11 @@ El sistema se construye sobre una arquitectura Medallion en PostgreSQL (Bronze �
   - `Transfermarkt_market_value` — emparejamiento de jugadores con sus valores de mercado.
   - `05_player_style_clustering` — clustering de estilos y motor de similitud.
   - `06_value_prediction` — predicción de revalorización e integración de scouting.
-- `models/` — artefactos entrenados (motor de similitud).
-- `data/processed/` — el dataset abierto publicado por este proyecto.
-- `tests/` — pruebas.
+- `models/` — artefactos entrenados (motor de similitud y modelo de xG).
+- `data/processed/` — el dataset abierto publicado por este proyecto (`scouting_dataset.csv`).
+- `requirements.txt` — dependencias del proyecto.
+- `.env.example` — plantilla de configuración de la conexión a PostgreSQL.
+- `LICENSE` — licencia MIT.
 
 ## Datos
 
@@ -54,14 +56,14 @@ Los valores de mercado proceden del dataset abierto *Football Data from Transfer
 
 ## Reproducción
 
-El repositorio publica los notebooks ya ejecutados (con su salida visible), el dataset abierto resultante y los artefactos entrenados, de modo que los resultados son auditables sin necesidad de reconstruir el pipeline.
+El repositorio publica los notebooks ya ejecutados, una exportación `.html` navegable de cada uno, el dataset abierto resultante y los artefactos entrenados, de modo que los resultados son auditables sin necesidad de reconstruir el pipeline. La vía más rápida para inspeccionar el trabajo es abrir los `.html` de `notebooks/` en cualquier navegador.
 
-Para reconstruir el sistema completo desde cero es necesario disponer de los datos crudos (que no se redistribuyen) y de una base de datos PostgreSQL local. Los pasos son:
+Reconstruir el sistema completo desde cero requiere disponer de los datos crudos (que no se redistribuyen) y de una base de datos PostgreSQL local. Los pasos son:
 
-1. Crear un entorno con las dependencias del proyecto.
+1. Crear un entorno con las dependencias del proyecto (`requirements.txt`).
 2. Descargar los datos de las fuentes oficiales indicadas arriba y colocarlos en `data/raw/`.
 3. Copiar `.env.example` a `.env` y rellenarlo con las credenciales de tu PostgreSQL local.
-4. Ejecutar los esquemas SQL de `sql/` para crear las capas Bronze y Silver.
+4. Ejecutar los esquemas SQL de `sql/` para crear las capas Bronze, Silver y Gold.
 5. Ejecutar los notebooks en el orden numerado.
 
 ## Tecnologías
