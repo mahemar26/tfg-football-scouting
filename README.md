@@ -1,6 +1,6 @@
 # Sistema de scouting de futbolistas basado en datos
 
-Clasificación de estilos de juego y predicción de rendimiento mediante aprendizaje automático.
+Clasificación de estilos de juego y predicción de rentabilidad mediante aprendizaje automático.
 
 Trabajo de Fin de Grado — Grado en Ciencia de Datos, Universitat de València.
 Autor: Mario Herranz Martínez.
