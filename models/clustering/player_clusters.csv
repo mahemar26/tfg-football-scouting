@@ -1,0 +1,1635 @@
+player_id,short_name,position_group,cluster,archetype,main_competition_id_x,liga,main_competition_id_y,main_competition_id
+26245,A. Letellier,GK,1,Portero de construcción,412,Ligue 1,412,412
+3267,Guaita,GK,0,Portero tradicional,795,La Liga,795,795
+3296,Adán,GK,1,Portero de construcción,795,La Liga,795,795
+3299,Fernando Pacheco,GK,0,Portero tradicional,795,La Liga,795,795
+3330,Oier,GK,0,Portero tradicional,795,La Liga,795,795
+15795,K. Casteels,GK,1,Portero de construcción,426,Bundesliga,426,426
+3397,Arrizabalaga,GK,0,Portero tradicional,795,La Liga,795,795
+3398,Raúl Fernández,GK,0,Portero tradicional,795,La Liga,795,795
+3428,Sergio Asenjo,GK,0,Portero tradicional,795,La Liga,795,795
+3429,T. Courtois,GK,1,Portero de construcción,364,Premier League,364,364
+3458,Sergio Rico,GK,1,Portero de construcción,795,La Liga,795,795
+3785,Kiko Casilla,GK,1,Portero de construcción,795,La Liga,795,795
+3554,Rubén,GK,0,Portero tradicional,795,La Liga,795,795
+3582,Adrián,GK,0,Portero tradicional,364,Premier League,364,364
+3719,Roberto,GK,0,Portero tradicional,795,La Liga,795,795
+3821,Sergio Álvarez,GK,1,Portero de construcción,795,La Liga,795,795
+3822,Rubén Blanco,GK,1,Portero de construcción,795,La Liga,795,795
+3915,K. Navas,GK,1,Portero de construcción,795,La Liga,795,795
+3963,Cuéllar,GK,0,Portero tradicional,795,La Liga,795,795
+4348,M. Barbosa,GK,1,Portero de construcción,795,La Liga,795,795
+4350,Raúl Lizoáin,GK,1,Portero de construcción,795,La Liga,795,795
+8094,J. Butland,GK,0,Portero tradicional,364,Premier League,364,364
+7847,Ł. Fabiański,GK,0,Portero tradicional,364,Premier League,364,364
+7849,W. Szczęsny,GK,1,Portero de construcción,524,Serie A,524,524
+7882,P. Čech,GK,1,Portero de construcción,364,Premier League,364,364
+14979,O. Baumann,GK,1,Portero de construcción,426,Bundesliga,426,426
+7910,David de Gea,GK,0,Portero tradicional,364,Premier League,364,364
+7949,Pepe Reina,GK,1,Portero de construcción,524,Serie A,524,524
+7974,R. Elliot,GK,0,Portero tradicional,364,Premier League,364,364
+8266,Gomes,GK,0,Portero tradicional,364,Premier League,364,364
+8301,J. Hart,GK,0,Portero tradicional,364,Premier League,364,364
+8358,B. Foster,GK,0,Portero tradicional,364,Premier League,364,364
+8391,J. Speroni,GK,0,Portero tradicional,364,Premier League,364,364
+8425,W. Hennessey,GK,0,Portero tradicional,364,Premier League,364,364
+8480,K. Schmeichel,GK,0,Portero tradicional,364,Premier League,364,364
+8514,S. Mignolet,GK,1,Portero de construcción,364,Premier League,364,364
+8580,A. McCarthy,GK,0,Portero tradicional,364,Premier League,364,364
+20571,S. Handanovič,GK,1,Portero de construcción,524,Serie A,524,524
+8726,A. Begović,GK,0,Portero tradicional,364,Premier League,364,364
+8826,K. Darlow,GK,0,Portero tradicional,364,Premier League,364,364
+9611,P. Gulácsi,GK,1,Portero de construcción,426,Bundesliga,426,426
+10131,J. Pickford,GK,0,Portero tradicional,364,Premier League,364,364
+12242,N. Pope,GK,0,Portero tradicional,364,Premier League,364,364
+20632,C. Puggioni,GK,1,Portero de construcción,524,Serie A,524,524
+14736,S. Ulreich,GK,1,Portero de construcción,426,Bundesliga,426,426
+14766,R. Adler,GK,0,Portero tradicional,426,Bundesliga,426,426
+14768,B. Leno,GK,1,Portero de construcción,426,Bundesliga,426,426
+14847,R. Fährmann,GK,1,Portero de construcción,426,Bundesliga,426,426
+14914,M. Hitz,GK,1,Portero de construcción,426,Bundesliga,426,426
+15008,M. ter Stegen,GK,1,Portero de construcción,795,La Liga,795,795
+15032,R. Zieler,GK,0,Portero tradicional,426,Bundesliga,426,426
+15175,L. Karius,GK,1,Portero de construcción,364,Premier League,364,364
+15265,T. Horn,GK,0,Portero tradicional,426,Bundesliga,426,426
+16010,P. Tschauner,GK,1,Portero de construcción,426,Bundesliga,426,426
+18704,C. Mathenia,GK,0,Portero tradicional,426,Bundesliga,426,426
+19525,A. Schwolow,GK,1,Portero de construcción,426,Bundesliga,426,426
+20455,G. Buffon,GK,1,Portero de construcción,524,Serie A,524,524
+20483,A. Mirante,GK,0,Portero tradicional,524,Serie A,524,524
+20540,A. Bizzarri,GK,0,Portero tradicional,524,Serie A,524,524
+20633,S. Sorrentino,GK,0,Portero tradicional,524,Serie A,524,524
+20802,E. Viviano,GK,0,Portero tradicional,524,Serie A,524,524
+20832,A. Consigli,GK,0,Portero tradicional,524,Serie A,524,524
+21098,A. Gomis,GK,0,Portero tradicional,524,Serie A,524,524
+20922,Neto,GK,0,Portero tradicional,795,La Liga,795,795
+21298,Nicolas,GK,0,Portero tradicional,524,Serie A,524,524
+21415,A. Brignoli,GK,0,Portero tradicional,524,Serie A,524,524
+21468,M. Perin,GK,0,Portero tradicional,524,Serie A,524,524
+21494,A. Cordaz,GK,0,Portero tradicional,524,Serie A,524,524
+25552,S. Mandanda,GK,1,Portero de construcción,412,Ligue 1,412,412
+22552,V. Belec,GK,0,Portero tradicional,524,Serie A,524,524
+23705,M. Sportiello,GK,1,Portero de construcción,524,Serie A,524,524
+25381,H. Lloris,GK,1,Portero de construcción,364,Premier League,364,364
+25382,A. Lopes,GK,1,Portero de construcción,412,Ligue 1,412,412
+25384,R. Vercoutre,GK,0,Portero tradicional,412,Ligue 1,412,412
+25418,A. Aréola,GK,1,Portero de construcción,412,Ligue 1,412,412
+25421,S. Sirigu,GK,1,Portero de construcción,524,Serie A,524,524
+25521,E. Zelazny,GK,0,Portero tradicional,412,Ligue 1,412,412
+25632,B. Costil,GK,1,Portero de construcción,412,Ligue 1,412,412
+25845,S. Ruffier,GK,1,Portero de construcción,412,Ligue 1,412,412
+25930,M. Samassa,GK,0,Portero tradicional,412,Ligue 1,412,412
+26016,B. Lecomte,GK,1,Portero de construcción,412,Ligue 1,412,412
+26365,B. Reynet,GK,1,Portero de construcción,412,Ligue 1,412,412
+26583,R. Gurtner,GK,0,Portero tradicional,412,Ligue 1,412,412
+26676,A. Oukidja,GK,0,Portero tradicional,412,Ligue 1,412,412
+26869,L. Butelle,GK,0,Portero tradicional,412,Ligue 1,412,412
+37896,E. Kawashima,GK,0,Portero tradicional,412,Ligue 1,412,412
+49855,Y. Sommer,GK,1,Portero de construcción,426,Bundesliga,426,426
+49968,R. Bürki,GK,1,Portero de construcción,426,Bundesliga,426,426
+50771,K. Johnsson,GK,0,Portero tradicional,412,Ligue 1,412,412
+50849,E. Berisha,GK,1,Portero de construcción,524,Serie A,524,524
+54579,R. Jarstein,GK,0,Portero tradicional,426,Bundesliga,426,426
+55951,L. Hradecky,GK,1,Portero de construcción,426,Bundesliga,426,426
+56038,J. Lössl,GK,0,Portero tradicional,364,Premier League,364,364
+61390,M. Ryan,GK,0,Portero tradicional,364,Premier League,364,364
+61941,F. Forster,GK,0,Portero tradicional,364,Premier League,364,364
+71654,Ederson,GK,1,Portero de construcción,364,Premier League,364,364
+70273,J. Oblak,GK,0,Portero tradicional,795,La Liga,795,795
+82690,T. Koubek,GK,0,Portero tradicional,412,Ligue 1,412,412
+83574,C. Tătărușanu,GK,0,Portero tradicional,412,Ligue 1,412,412
+86212,G. Rulli,GK,1,Portero de construcción,795,La Liga,795,795
+86319,L. Chichizola,GK,1,Portero de construcción,795,La Liga,795,795
+86745,W. Benítez,GK,1,Portero de construcción,412,Ligue 1,412,412
+92864,O. Karnezis,GK,0,Portero tradicional,364,Premier League,364,364
+104851,M. Dúbravka,GK,0,Portero tradicional,364,Premier League,364,364
+120631,Y. Bounou,GK,0,Portero tradicional,795,La Liga,795,795
+134413,A. Cragno,GK,0,Portero tradicional,524,Serie A,524,524
+134496,M. Maignan,GK,1,Portero de construcción,412,Ligue 1,412,412
+135747,D. Subašić,GK,0,Portero tradicional,412,Ligue 1,412,412
+140046,M. Dmitrović,GK,0,Portero tradicional,795,La Liga,795,795
+166534,T. Strakosha,GK,1,Portero de construcción,524,Serie A,524,524
+214220,Alisson,GK,1,Portero de construcción,524,Serie A,524,524
+214609,Y. Cardinale,GK,1,Portero de construcción,412,Ligue 1,412,412
+222798,R. Zentner,GK,0,Portero tradicional,426,Bundesliga,426,426
+241957,J. Pollersbeck,GK,1,Portero de construcción,426,Bundesliga,426,426
+247206,Pau López,GK,0,Portero tradicional,795,La Liga,795,795
+253822,J. Pavlenka,GK,1,Portero de construcción,426,Bundesliga,426,426
+278320,David Soria,GK,1,Portero de construcción,795,La Liga,795,795
+286215,A. Meret,GK,0,Portero tradicional,524,Serie A,524,524
+301635,B. Kamara,GK,0,Portero tradicional,412,Ligue 1,412,412
+350999,G. Donnarumma,GK,1,Portero de construcción,524,Serie A,524,524
+404213,A. Lafont,GK,0,Portero tradicional,412,Ligue 1,412,412
+36,T. Alderweireld,DF,1,Central constructor,364,Premier League,364,364
+48,J. Vertonghen,DF,1,Central constructor,364,Premier League,364,364
+74,R. Klavan,DF,1,Central constructor,364,Premier League,364,364
+77,N. Moisander,DF,1,Central constructor,426,Bundesliga,426,426
+102,Marcelo,DF,1,Central constructor,412,Ligue 1,412,412
+107,E. Pieters,DF,0,Carrilero ofensivo,364,Premier League,364,364
+110,J. Willems,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+130,S. de Vrij,DF,1,Central constructor,524,Serie A,524,524
+132,T. Kongolo,DF,2,Central corrector,364,Premier League,364,364
+134,B. Martins Indi,DF,2,Central corrector,364,Premier League,364,364
+159,J. Gouweleeuw,DF,2,Central corrector,426,Bundesliga,426,426
+160,D. Janmaat,DF,0,Carrilero ofensivo,364,Premier League,364,364
+192,J. Vuković,DF,2,Central corrector,524,Serie A,524,524
+254,R. Rosales,DF,0,Carrilero ofensivo,795,La Liga,795,795
+284,M. van der Hoorn,DF,2,Central corrector,364,Premier League,364,364
+340,Cuco Martina,DF,0,Carrilero ofensivo,364,Premier League,364,364
+370,V. van Dijk,DF,1,Central constructor,364,Premier League,364,364
+394,B. Nuytinck,DF,2,Central corrector,524,Serie A,524,524
+454,P. van Aanholt,DF,0,Carrilero ofensivo,364,Premier League,364,364
+703,M. Yoshida,DF,2,Central corrector,364,Premier League,364,364
+1712,K. Tete,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+3269,Jordi Alba,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3270,Barragán,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3276,A. Rami,DF,1,Central constructor,412,Ligue 1,412,412
+3277,Víctor Ruíz,DF,1,Central constructor,795,La Liga,795,795
+3278,Bruno Saltor,DF,0,Carrilero ofensivo,364,Premier League,364,364
+3300,Albiol,DF,1,Central constructor,524,Serie A,524,524
+3304,Nacho,DF,1,Central constructor,795,La Liga,795,795
+3306,Sergio Ramos,DF,1,Central constructor,795,La Liga,795,795
+3308,Pedro Mendes,DF,2,Central corrector,412,Ligue 1,412,412
+3309,R. Varane,DF,1,Central constructor,795,La Liga,795,795
+3310,Marcelo,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3325,Juanfran,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3334,Dani Alves,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+3335,Bartra,DF,1,Central constructor,795,La Liga,795,795
+3338,Sergi Gómez,DF,1,Central constructor,795,La Liga,795,795
+3339,Montoya,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3340,Muniesa,DF,2,Central corrector,795,La Liga,795,795
+3341,Piqué,DF,1,Central constructor,795,La Liga,795,795
+3347,Sergi Roberto,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3351,Kiko Femenía,DF,0,Carrilero ofensivo,364,Premier League,364,364
+3407,Ramalho,DF,2,Central corrector,795,La Liga,795,795
+3408,Saborit,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3421,De Marcos,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3431,João Miranda,DF,1,Central constructor,524,Serie A,524,524
+3433,D. Godín,DF,2,Central corrector,795,La Liga,795,795
+3434,Filipe Luis,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3436,Javi Manquillo,DF,0,Carrilero ofensivo,364,Premier League,364,364
+3447,Juanfran,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3460,Coke,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3463,F. Fazio,DF,1,Central constructor,524,Serie A,524,524
+3464,Luna,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3465,Fernando Navarro,DF,2,Central corrector,795,La Liga,795,795
+3466,Alexis,DF,2,Central corrector,795,La Liga,795,795
+3468,Juan Cala,DF,2,Central corrector,795,La Liga,795,795
+3496,Sergio Postigo,DF,2,Central corrector,795,La Liga,795,795
+3523,F. Lejeune,DF,2,Central corrector,364,Premier League,364,364
+3526,M. Musacchio,DF,1,Central constructor,524,Serie A,524,524
+3529,Mario,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3531,C. Zapata,DF,1,Central constructor,524,Serie A,524,524
+3534,Jaume Costa,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3560,Nacho Monreal,DF,1,Central constructor,364,Premier League,364,364
+3642,Ramis,DF,2,Central corrector,795,La Liga,795,795
+3667,De La Bella,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3671,Íñigo Martínez,DF,2,Central corrector,795,La Liga,795,795
+3692,Bernardo Espinosa,DF,2,Central corrector,795,La Liga,795,795
+3695,Álvaro González,DF,2,Central corrector,795,La Liga,795,795
+3750,Balenziaga,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3788,Jordi Amat,DF,1,Central constructor,795,La Liga,795,795
+3791,Z. Feddal,DF,2,Central corrector,795,La Liga,795,795
+3795,H. Moreno,DF,1,Central constructor,795,La Liga,795,795
+3806,Javi López,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3827,Hugo Mallo,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3828,Raúl Navas,DF,1,Central constructor,795,La Liga,795,795
+3885,L. Cabrera,DF,2,Central corrector,795,La Liga,795,795
+3916,G. Cabral,DF,1,Central constructor,795,La Liga,795,795
+3920,Pedro López,DF,0,Carrilero ofensivo,795,La Liga,795,795
+3970,Gálvez,DF,2,Central corrector,795,La Liga,795,795
+3974,D. Suárez,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4065,J. Murillo,DF,1,Central constructor,795,La Liga,795,795
+4086,Bóveda,DF,2,Central corrector,795,La Liga,795,795
+4094,Ander Capa,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4180,Lombán,DF,2,Central corrector,795,La Liga,795,795
+4238,Míchel,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4272,Ximo Navarro,DF,2,Central corrector,795,La Liga,795,795
+4303,David López,DF,2,Central corrector,795,La Liga,795,795
+4358,Laguardia,DF,2,Central corrector,795,La Liga,795,795
+4360,Juanpe,DF,2,Central corrector,795,La Liga,795,795
+4371,Dani Castellano,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4424,Jonny,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4452,Yuri Berchiche,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+4501,Daniel Carvajal,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4780,David Juncà,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4786,Iván Balliu,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+4805,Arbilla,DF,2,Central corrector,795,La Liga,795,795
+4892,José Gayá,DF,0,Carrilero ofensivo,795,La Liga,795,795
+4908,Alberto Moreno,DF,0,Carrilero ofensivo,364,Premier League,364,364
+5281,A. Nyom,DF,0,Carrilero ofensivo,364,Premier League,364,364
+5383,Toño,DF,0,Carrilero ofensivo,795,La Liga,795,795
+5472,Luis Hernández,DF,2,Central corrector,795,La Liga,795,795
+5653,M. Mantovani,DF,2,Central corrector,795,La Liga,795,795
+5677,Bruno,DF,2,Central corrector,795,La Liga,795,795
+6210,Aday,DF,0,Carrilero ofensivo,795,La Liga,795,795
+6281,Zaldúa,DF,0,Carrilero ofensivo,795,La Liga,795,795
+6365,Bustinza,DF,2,Central corrector,795,La Liga,795,795
+6513,Raúl García,DF,0,Carrilero ofensivo,795,La Liga,795,795
+7302,Albentosa,DF,2,Central corrector,795,La Liga,795,795
+7853,K. Gibbs,DF,0,Carrilero ofensivo,364,Premier League,364,364
+7855,L. Koscielny,DF,1,Central constructor,364,Premier League,364,364
+7857,Miquel,DF,2,Central corrector,795,La Liga,795,795
+7858,B. Sagna,DF,1,Central constructor,524,Serie A,524,524
+7860,T. Vermaelen,DF,1,Central constructor,795,La Liga,795,795
+7885,R. Bertrand,DF,0,Carrilero ofensivo,364,Premier League,364,364
+7887,G. Cahill,DF,1,Central constructor,364,Premier League,364,364
+7914,J. Evans,DF,2,Central corrector,364,Premier League,364,364
+7918,P. Jones,DF,1,Central constructor,364,Premier League,364,364
+7919,M. Keane,DF,2,Central corrector,364,Premier League,364,364
+7920,Rafael,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+7922,C. Smalling,DF,2,Central corrector,364,Premier League,364,364
+7938,A. Valencia,DF,0,Carrilero ofensivo,364,Premier League,364,364
+7939,A. Young,DF,0,Carrilero ofensivo,364,Premier League,364,364
+7958,M. Kelly,DF,2,Central corrector,364,Premier League,364,364
+7978,P. Dummett,DF,2,Central corrector,364,Premier League,364,364
+8004,C. Clark,DF,2,Central corrector,364,Premier League,364,364
+8005,J. Collins,DF,2,Central corrector,364,Premier League,364,364
+8032,Marcos Alonso,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8136,J. Stephens,DF,2,Central corrector,364,Premier League,364,364
+8186,S. Dann,DF,2,Central corrector,364,Premier League,364,364
+8192,M. Olsson,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8221,J. Ward,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8239,L. Baines,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8240,S. Coleman,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8242,S. Duffy,DF,2,Central corrector,364,Premier League,364,364
+8245,P. Jagielka,DF,2,Central corrector,364,Premier League,364,364
+8268,B. Assou-Ekotto,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+8277,K. Walker,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8306,A. Kolarov,DF,0,Carrilero ofensivo,524,Serie A,524,524
+8307,V. Kompany,DF,1,Central constructor,364,Premier League,364,364
+8309,K. Rekik,DF,2,Central corrector,426,Bundesliga,426,426
+8311,S. Savić,DF,2,Central corrector,795,La Liga,795,795
+8313,P. Zabaleta,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8336,K. Naughton,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8360,C. Dawson,DF,2,Central corrector,364,Premier League,364,364
+8433,S. Ward,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8460,A. Smith,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8488,W. Morgan,DF,2,Central corrector,364,Premier League,364,364
+8501,J. Schlupp,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8516,P. Bardsley,DF,2,Central corrector,364,Premier League,364,364
+8553,W. Reid,DF,2,Central corrector,364,Premier League,364,364
+8554,J. Tomkins,DF,2,Central corrector,364,Premier League,364,364
+8582,A. Cresswell,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8643,M. Lowton,DF,0,Carrilero ofensivo,364,Premier League,364,364
+8653,H. Maguire,DF,2,Central corrector,364,Premier League,364,364
+8731,R. Shawcross,DF,2,Central corrector,364,Premier League,364,364
+8833,J. Lascelles,DF,2,Central corrector,364,Premier League,364,364
+8889,A. Mariappa,DF,2,Central corrector,364,Premier League,364,364
+8944,B. Mee,DF,2,Central corrector,364,Premier League,364,364
+8945,K. Trippier,DF,0,Carrilero ofensivo,364,Premier League,364,364
+9097,L. Dunk,DF,2,Central corrector,364,Premier League,364,364
+9164,C. Taylor,DF,2,Central corrector,364,Premier League,364,364
+9277,S. Cook,DF,2,Central corrector,364,Premier League,364,364
+9279,S. Francis,DF,2,Central corrector,364,Premier League,364,364
+9280,S. Malone,DF,0,Carrilero ofensivo,364,Premier League,364,364
+9285,C. Daniels,DF,0,Carrilero ofensivo,364,Premier League,364,364
+9380,J. Stones,DF,1,Central constructor,364,Premier League,364,364
+9433,J. Tarkowski,DF,2,Central corrector,364,Premier League,364,364
+10108,K. Long,DF,2,Central corrector,364,Premier League,364,364
+11078,T. Smith,DF,0,Carrilero ofensivo,364,Premier League,364,364
+11095,M. Veljkovic,DF,2,Central corrector,426,Bundesliga,426,426
+14687,S. Papastathopoulos,DF,1,Central constructor,426,Bundesliga,426,426
+14688,S. Prödl,DF,2,Central corrector,364,Premier League,364,364
+14689,Naldo,DF,2,Central corrector,426,Bundesliga,426,426
+14715,H. Badstuber,DF,2,Central corrector,426,Bundesliga,426,426
+14716,J. Boateng,DF,1,Central constructor,426,Bundesliga,426,426
+14718,Rafinha,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14724,D. Alaba,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14745,C. Molinaro,DF,0,Carrilero ofensivo,524,Serie A,524,524
+14748,A. Rüdiger,DF,1,Central constructor,364,Premier League,364,364
+14749,G. Sakai,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14772,D. da Costa,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14775,B. Oczipka,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14778,Ö. Toprak,DF,1,Central constructor,426,Bundesliga,426,426
+14795,M. Hummels,DF,1,Central constructor,426,Bundesliga,426,426
+14796,C. Löwe,DF,0,Carrilero ofensivo,364,Premier League,364,364
+14798,Ł. Piszczek,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14800,M. Schmelzer,DF,1,Central constructor,426,Bundesliga,426,426
+14801,N. Subotić,DF,1,Central constructor,412,Ligue 1,412,412
+14803,S. Bender,DF,1,Central constructor,426,Bundesliga,426,426
+14842,K. Vogt,DF,1,Central constructor,426,Bundesliga,426,426
+14852,Sergio Escudero,DF,0,Carrilero ofensivo,795,La Liga,795,795
+14853,C. Fuchs,DF,0,Carrilero ofensivo,364,Premier League,364,364
+14857,K. Papadopoulos,DF,2,Central corrector,426,Bundesliga,426,426
+14869,S. Kolašinac,DF,0,Carrilero ofensivo,364,Premier League,364,364
+14870,J. Matip,DF,1,Central constructor,364,Premier League,364,364
+14885,D. Aogo,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14887,J. Bruma,DF,1,Central constructor,426,Bundesliga,426,426
+14888,D. Diekmeier,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14904,J. Sala,DF,0,Carrilero ofensivo,524,Serie A,524,524
+14917,R. Knoche,DF,1,Central constructor,426,Bundesliga,426,426
+14922,R. Rodríguez,DF,0,Carrilero ofensivo,524,Serie A,524,524
+14923,M. Russ,DF,2,Central corrector,426,Bundesliga,426,426
+14988,O. Sorg,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+14990,F. Diagne,DF,2,Central corrector,412,Ligue 1,412,412
+14991,M. Ginter,DF,1,Central constructor,426,Bundesliga,426,426
+15010,Dante,DF,1,Central constructor,412,Ligue 1,412,412
+15014,O. Wendt,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15039,K. Rausch,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15069,W. Orban,DF,2,Central corrector,426,Bundesliga,426,426
+15103,F. Lustenberger,DF,2,Central corrector,426,Bundesliga,426,426
+15122,D. Maroh,DF,2,Central corrector,426,Bundesliga,426,426
+15125,M. Plattenhardt,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15139,T. Chandler,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15178,S. Bell,DF,2,Central corrector,426,Bundesliga,426,426
+15214,A. Rukavina,DF,0,Carrilero ofensivo,795,La Liga,795,795
+15215,C. Schindler,DF,2,Central corrector,364,Premier League,364,364
+15399,D. Brosinski,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15449,M. Mavraj,DF,2,Central corrector,426,Bundesliga,426,426
+15719,B. Hübner,DF,1,Central constructor,426,Bundesliga,426,426
+15771,S. Langkamp,DF,2,Central corrector,426,Bundesliga,426,426
+15772,M. Ostrzolek,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15775,P. Verhaegh,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15798,A. Beck,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+15806,J. Vestergaard,DF,1,Central constructor,426,Bundesliga,426,426
+16443,L. Balogun,DF,2,Central corrector,426,Bundesliga,426,426
+16843,D. Heintz,DF,2,Central corrector,426,Bundesliga,426,426
+16884,J. Korb,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+18579,M. Halstenberg,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+18669,J. Hector,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+18670,L. Kübler,DF,2,Central corrector,426,Bundesliga,426,426
+19720,M. Gulde,DF,2,Central corrector,426,Bundesliga,426,426
+20390,I. Abate,DF,0,Carrilero ofensivo,524,Serie A,524,524
+20393,D. Bonera,DF,2,Central corrector,795,La Liga,795,795
+20394,Thiago Silva,DF,1,Central constructor,412,Ligue 1,412,412
+20395,M. De Sciglio,DF,1,Central constructor,524,Serie A,524,524
+20429,N. Burdisso,DF,2,Central corrector,524,Serie A,524,524
+20433,S. Kjær,DF,2,Central corrector,795,La Liga,795,795
+20434,A. Rosi,DF,0,Carrilero ofensivo,524,Serie A,524,524
+20436,José Ángel,DF,0,Carrilero ofensivo,795,La Liga,795,795
+20458,A. Barzagli,DF,1,Central constructor,524,Serie A,524,524
+20459,L. Bonucci,DF,1,Central constructor,524,Serie A,524,524
+20460,M. Cáceres,DF,0,Carrilero ofensivo,524,Serie A,524,524
+20461,G. Chiellini,DF,1,Central constructor,524,Serie A,524,524
+20465,S. Lichtsteiner,DF,0,Carrilero ofensivo,524,Serie A,524,524
+20495,M. Gobbi,DF,0,Carrilero ofensivo,524,Serie A,524,524
+20516,D. Faraoni,DF,0,Carrilero ofensivo,524,Serie A,524,524
+20518,Juan Jesus,DF,1,Central constructor,524,Serie A,524,524
+20550,Ş. Radu,DF,1,Central constructor,524,Serie A,524,524
+20579,M. Benatia,DF,1,Central constructor,524,Serie A,524,524
+20583,Danilo,DF,2,Central corrector,524,Serie A,524,524
+20609,A. Costa,DF,2,Central corrector,524,Serie A,524,524
+20612,S. Mustafi,DF,1,Central constructor,364,Premier League,364,364
+20635,F. Acerbi,DF,2,Central corrector,524,Serie A,524,524
+20636,M. Andreolli,DF,2,Central corrector,524,Serie A,524,524
+20638,D. Dainelli,DF,2,Central corrector,524,Serie A,524,524
+20677,A. Raggi,DF,2,Central corrector,412,Ligue 1,412,412
+20680,F. Sørensen,DF,2,Central corrector,426,Bundesliga,426,426
+20707,S. De Maio,DF,2,Central corrector,524,Serie A,524,524
+20723,B. Salamon,DF,2,Central corrector,524,Serie A,524,524
+20748,N. Tomović,DF,2,Central corrector,524,Serie A,524,524
+20776,L. Rossettini,DF,2,Central corrector,524,Serie A,524,524
+20803,M. Aguirregaray,DF,0,Carrilero ofensivo,795,La Liga,795,795
+20808,E. Muñoz,DF,2,Central corrector,795,La Liga,795,795
+20811,M. Silvestre,DF,1,Central constructor,524,Serie A,524,524
+20841,A. Masiello,DF,1,Central constructor,524,Serie A,524,524
+20842,F. Peluso,DF,2,Central corrector,524,Serie A,524,524
+20855,E. Schelotto,DF,0,Carrilero ofensivo,364,Premier League,364,364
+20866,D. Astori,DF,1,Central constructor,524,Serie A,524,524
+20869,N. Murru,DF,0,Carrilero ofensivo,524,Serie A,524,524
+21100,A. Ogbonna,DF,2,Central corrector,364,Premier League,364,364
+20927,L. De Silvestri,DF,0,Carrilero ofensivo,524,Serie A,524,524
+20928,Felipe,DF,2,Central corrector,524,Serie A,524,524
+20929,A. Gamberini,DF,2,Central corrector,524,Serie A,524,524
+20932,M. Nastasić,DF,1,Central constructor,426,Bundesliga,426,426
+21001,E. Hysaj,DF,0,Carrilero ofensivo,524,Serie A,524,524
+21004,V. Regini,DF,1,Central constructor,524,Serie A,524,524
+21072,N. Spolli,DF,2,Central corrector,524,Serie A,524,524
+21094,D. D'Ambrosio,DF,0,Carrilero ofensivo,524,Serie A,524,524
+21097,K. Glik,DF,2,Central corrector,412,Ligue 1,412,412
+21162,P. Cannavaro,DF,2,Central corrector,524,Serie A,524,524
+21164,F. Fernández,DF,2,Central corrector,364,Premier League,364,364
+21279,E. Moretti,DF,1,Central constructor,524,Serie A,524,524
+21280,M. Sampirisi,DF,2,Central corrector,524,Serie A,524,524
+21370,M. Capuano,DF,2,Central corrector,524,Serie A,524,524
+21469,G. Donati,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+21528,F. Ceccherini,DF,2,Central corrector,524,Serie A,524,524
+21550,Gabriel Silva,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+21578,G. Di Chiara,DF,0,Carrilero ofensivo,524,Serie A,524,524
+21607,F. Cacciatore,DF,0,Carrilero ofensivo,524,Serie A,524,524
+21639,L. Ceppitelli,DF,2,Central corrector,524,Serie A,524,524
+21842,C. Biraghi,DF,0,Carrilero ofensivo,524,Serie A,524,524
+22093,A. Caracciolo,DF,2,Central corrector,524,Serie A,524,524
+22107,Mário Rui,DF,0,Carrilero ofensivo,524,Serie A,524,524
+22185,B. Martella,DF,0,Carrilero ofensivo,524,Serie A,524,524
+22270,G. Ferrari,DF,1,Central constructor,524,Serie A,524,524
+22313,V. Laurini,DF,0,Carrilero ofensivo,524,Serie A,524,524
+22377,I. M'baye,DF,0,Carrilero ofensivo,524,Serie A,524,524
+22732,F. Pisacane,DF,2,Central corrector,524,Serie A,524,524
+22883,A. Izzo,DF,2,Central corrector,524,Serie A,524,524
+22889,D. Zappacosta,DF,0,Carrilero ofensivo,364,Premier League,364,364
+24838,G. Letizia,DF,0,Carrilero ofensivo,524,Serie A,524,524
+25392,B. Koné,DF,2,Central corrector,412,Ligue 1,412,412
+25393,D. Lovren,DF,1,Central constructor,364,Premier League,364,364
+25397,S. Umtiti,DF,1,Central constructor,795,La Liga,795,795
+25399,M. Zeffane,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25427,C. Jallet,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25430,M. Sakho,DF,1,Central constructor,364,Premier League,364,364
+25457,J. Roussillon,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25523,K. Djidji,DF,2,Central corrector,412,Ligue 1,412,412
+25524,P. Djilobodji,DF,2,Central corrector,412,Ligue 1,412,412
+25526,J. Martins-Pereira,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25534,I. Cissokho,DF,2,Central corrector,412,Ligue 1,412,412
+25553,Azpilicueta,DF,1,Central constructor,364,Premier League,364,364
+25557,J. Morel,DF,1,Central constructor,412,Ligue 1,412,412
+25558,N. N'Koulou,DF,1,Central constructor,524,Serie A,524,524
+25625,L. Baal,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25638,D. Foulquier,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25641,K. Mangane,DF,2,Central corrector,412,Ligue 1,412,412
+25643,K. Théophile Catherine,DF,1,Central constructor,412,Ligue 1,412,412
+25700,M. Debuchy,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25710,A. Soumaoro,DF,1,Central constructor,412,Ligue 1,412,412
+25726,K. Koulibaly,DF,1,Central constructor,524,Serie A,524,524
+25785,S. Aurier,DF,0,Carrilero ofensivo,364,Premier League,364,364
+25786,D. Congré,DF,1,Central constructor,412,Ligue 1,412,412
+25791,S. Yago,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25846,Y. Andreu,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25849,F. Ghoulam,DF,0,Carrilero ofensivo,524,Serie A,524,524
+25854,K. Zouma,DF,2,Central corrector,364,Premier League,364,364
+25864,L. Perrin,DF,1,Central constructor,412,Ligue 1,412,412
+25878,T. Heurtaux,DF,2,Central corrector,524,Serie A,524,524
+25883,J. Sorbon,DF,2,Central corrector,412,Ligue 1,412,412
+25919,J. Palmieri,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25937,F. Bellugou,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25943,C. Kerbrat,DF,2,Central corrector,412,Ligue 1,412,412
+25947,B. Sankoh,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25957,K. Adénon,DF,2,Central corrector,412,Ligue 1,412,412
+25990,M. Deplagne,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+25993,Hilton,DF,2,Central corrector,412,Ligue 1,412,412
+26021,S. Falette,DF,2,Central corrector,426,Bundesliga,426,426
+26086,I. Traoré,DF,2,Central corrector,412,Ligue 1,412,412
+26115,S. Sané,DF,2,Central corrector,426,Bundesliga,426,426
+26134,P. Gouano,DF,2,Central corrector,412,Ligue 1,412,412
+26135,M. Le Marchand,DF,1,Central constructor,412,Ligue 1,412,412
+26138,J. Rivierez,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+26196,D. Sidibé,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+26265,V. Manceau,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+26276,N. Pallois,DF,2,Central corrector,412,Ligue 1,412,412
+26307,A. Mandi,DF,1,Central constructor,795,La Liga,795,795
+26332,P. Baysse,DF,2,Central corrector,795,La Liga,795,795
+26368,A. Bamba,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+26373,S. Souprayen,DF,0,Carrilero ofensivo,524,Serie A,524,524
+26399,D. Da Silva,DF,2,Central corrector,412,Ligue 1,412,412
+26433,J. Cordoval,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+26495,G. Bong,DF,0,Carrilero ofensivo,364,Premier League,364,364
+26498,K. Lala,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+26499,A. Masuaku,DF,0,Carrilero ofensivo,364,Premier League,364,364
+26528,R. Genevois,DF,2,Central corrector,412,Ligue 1,412,412
+26633,A. Souquet,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+26945,M. Poundjé,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+27958,T. Pellenard,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+28314,C. Hérelle,DF,2,Central corrector,412,Ligue 1,412,412
+28335,R. Aguilar,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+28528,J. Ikoko,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+28529,Y. Sabaly,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+28908,F. Guilbert,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+29291,J. Giraudon,DF,2,Central corrector,412,Ligue 1,412,412
+29474,R. Thomas,DF,2,Central corrector,412,Ligue 1,412,412
+29588,E. Seka,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+29616,P. Martinez,DF,2,Central corrector,412,Ligue 1,412,412
+29748,F. Chafik,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+30320,O. El Hajjam,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+32577,Sidnei,DF,2,Central corrector,795,La Liga,795,795
+32959,P. Pekarík,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+37745,J. Lukaku,DF,0,Carrilero ofensivo,524,Serie A,524,524
+37824,T. Meunier,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+38079,D. Opare,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+38532,E. Zukanović,DF,1,Central constructor,524,Serie A,524,524
+40301,Lucas Lima,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+40538,Leandro Castán,DF,2,Central corrector,524,Serie A,524,524
+40539,Marquinhos,DF,1,Central constructor,412,Ligue 1,412,412
+40657,Wendell,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+41034,Rafael Tolói,DF,1,Central constructor,524,Serie A,524,524
+41124,Naldo,DF,2,Central corrector,795,La Liga,795,795
+41127,Pablo,DF,2,Central corrector,412,Ligue 1,412,412
+41363,Gabriel,DF,1,Central constructor,795,La Liga,795,795
+44251,Bruno Peres,DF,0,Carrilero ofensivo,524,Serie A,524,524
+44510,Vitor Hugo,DF,2,Central corrector,524,Serie A,524,524
+49856,D. Abraham,DF,2,Central corrector,426,Bundesliga,426,426
+49857,A. Ajeti,DF,2,Central corrector,524,Serie A,524,524
+49919,F. Moubandje,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+49971,M. Bauer,DF,0,Carrilero ofensivo,364,Premier League,364,364
+50007,B. Djimsiti,DF,1,Central constructor,524,Serie A,524,524
+50069,S. Widmer,DF,0,Carrilero ofensivo,524,Serie A,524,524
+50102,F. Schär,DF,2,Central corrector,795,La Liga,795,795
+50805,F. Helander,DF,2,Central corrector,524,Serie A,524,524
+51064,E. Krafth,DF,0,Carrilero ofensivo,524,Serie A,524,524
+51217,L. Augustinsson,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+55979,M. Jørgensen,DF,2,Central corrector,364,Premier League,364,364
+56009,R. Durmisi,DF,0,Carrilero ofensivo,795,La Liga,795,795
+56026,J. Stryger Larsen,DF,1,Central constructor,524,Serie A,524,524
+58978,G. Cameron,DF,2,Central corrector,364,Premier League,364,364
+64966,M. Suttner,DF,0,Carrilero ofensivo,364,Premier League,364,364
+65075,M. Hinteregger,DF,2,Central corrector,426,Bundesliga,426,426
+65254,K. Wimmer,DF,2,Central corrector,364,Premier League,364,364
+68085,C. Kabasele,DF,2,Central corrector,364,Premier League,364,364
+69409,Š. Vrsaljko,DF,0,Carrilero ofensivo,795,La Liga,795,795
+69525,M. Pavlović,DF,2,Central corrector,412,Ligue 1,412,412
+70083,Danilo,DF,0,Carrilero ofensivo,364,Premier League,364,364
+70084,Alex Sandro,DF,0,Carrilero ofensivo,524,Serie A,524,524
+70086,N. Otamendi,DF,1,Central constructor,364,Premier League,364,364
+70088,Rolando,DF,1,Central constructor,412,Ligue 1,412,412
+70112,E. Garay,DF,2,Central corrector,795,La Liga,795,795
+70139,E. Insúa,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+70389,Cédric Soares,DF,0,Carrilero ofensivo,364,Premier League,364,364
+70451,Luisinho,DF,0,Carrilero ofensivo,795,La Liga,795,795
+70507,Paulo Oliveira,DF,2,Central corrector,795,La Liga,795,795
+70711,Mexer,DF,2,Central corrector,412,Ligue 1,412,412
+70959,Edgar Ié,DF,1,Central constructor,412,Ligue 1,412,412
+70981,Marçal,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+71703,V. Lindelöf,DF,1,Central constructor,364,Premier League,364,364
+77546,A. Williams,DF,2,Central corrector,364,Premier League,364,364
+82340,T. Gebre Selassie,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+82487,P. Kadeřábek,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+85113,A. Toșca,DF,1,Central constructor,524,Serie A,524,524
+86183,F. Roncaglia,DF,1,Central constructor,795,La Liga,795,795
+86220,G. Mercado,DF,2,Central corrector,795,La Liga,795,795
+86328,G. Pezzella,DF,1,Central constructor,524,Serie A,524,524
+86366,J. Palomino,DF,1,Central constructor,524,Serie A,524,524
+86716,M. Dos Santos,DF,2,Central corrector,795,La Liga,795,795
+91702,J. Mojica,DF,0,Carrilero ofensivo,795,La Liga,795,795
+92899,J. Holebas,DF,0,Carrilero ofensivo,364,Premier League,364,364
+92966,K. Manolas,DF,1,Central constructor,524,Serie A,524,524
+93000,Antunes,DF,0,Carrilero ofensivo,795,La Liga,795,795
+93003,D. Siovas,DF,2,Central corrector,795,La Liga,795,795
+94695,H. Sakai,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+99410,M. Kamiński,DF,1,Central constructor,426,Bundesliga,426,426
+99661,T. Cionek,DF,2,Central corrector,524,Serie A,524,524
+99833,B. Bereszyński,DF,0,Carrilero ofensivo,524,Serie A,524,524
+101742,C. Ansaldi,DF,0,Carrilero ofensivo,524,Serie A,524,524
+105361,I. Strinić,DF,0,Carrilero ofensivo,524,Serie A,524,524
+105523,Danilo Avelar,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+112366,M. Layún,DF,0,Carrilero ofensivo,795,La Liga,795,795
+112377,O. Vizcarrondo,DF,2,Central corrector,412,Ligue 1,412,412
+119951,Ahmed Hegazy,DF,2,Central corrector,364,Premier League,364,364
+120717,O. Haddadi,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+125250,Ó. Duarte,DF,2,Central corrector,795,La Liga,795,795
+125286,G. González,DF,2,Central corrector,524,Serie A,524,524
+131184,Ali Adnan,DF,0,Carrilero ofensivo,524,Serie A,524,524
+134102,N. Aké,DF,2,Central corrector,364,Premier League,364,364
+134383,N. Süle,DF,1,Central constructor,426,Bundesliga,426,426
+134392,K. Akpoguma,DF,1,Central constructor,426,Bundesliga,426,426
+134420,F. Costa,DF,0,Carrilero ofensivo,524,Serie A,524,524
+134427,D. Rugani,DF,1,Central constructor,524,Serie A,524,524
+134502,A. Laporte,DF,1,Central constructor,795,La Liga,795,795
+134503,C. Lenglet,DF,1,Central constructor,795,La Liga,795,795
+134540,L. Kurzawa,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+135103,A. Christensen,DF,1,Central constructor,364,Premier League,364,364
+135901,Pedro Rebocho,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+135903,João Cancelo,DF,0,Carrilero ofensivo,524,Serie A,524,524
+136441,B. Davies,DF,0,Carrilero ofensivo,364,Premier League,364,364
+138408,M. Škriniar,DF,1,Central constructor,524,Serie A,524,524
+143566,Douglas Santos,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+144867,K. Malcuit,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+144884,C. Jullien,DF,2,Central corrector,412,Ligue 1,412,412
+146569,M. Kempf,DF,2,Central corrector,426,Bundesliga,426,426
+146588,A. Romagnoli,DF,1,Central constructor,524,Serie A,524,524
+146590,F. Mattiello,DF,0,Carrilero ofensivo,524,Serie A,524,524
+149019,D. Simpson,DF,2,Central corrector,364,Premier League,364,364
+149091,M. Tisserand,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+149101,A. Touré,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+149389,J. Toljan,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+167145,Bellerín,DF,0,Carrilero ofensivo,364,Premier League,364,364
+169002,Diego Rico,DF,0,Carrilero ofensivo,795,La Liga,795,795
+173212,N. Stark,DF,2,Central corrector,426,Bundesliga,426,426
+189821,M. Zeegelaar,DF,0,Carrilero ofensivo,364,Premier League,364,364
+203113,I. Sylla,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+206318,D. Biraschi,DF,0,Carrilero ofensivo,524,Serie A,524,524
+208694,Rodrigo Ely,DF,2,Central corrector,795,La Liga,795,795
+208865,Bastos,DF,1,Central constructor,524,Serie A,524,524
+209012,Kévin Rodrigues,DF,0,Carrilero ofensivo,795,La Liga,795,795
+211853,Rúben Vezo,DF,2,Central corrector,795,La Liga,795,795
+213124,Chema,DF,2,Central corrector,795,La Liga,795,795
+213308,J. Alonso,DF,1,Central constructor,412,Ligue 1,412,412
+214628,J. Amavi,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+214710,B. Dibassy,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+215036,C. Yamberé,DF,2,Central corrector,412,Ligue 1,412,412
+215281,A. Mbengue,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+215869,M. Bani,DF,2,Central corrector,524,Serie A,524,524
+216074,C. Günter,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+221172,A. Hack,DF,2,Central corrector,426,Bundesliga,426,426
+221411,P. Max,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+222220,A. Robertson,DF,0,Carrilero ofensivo,364,Premier League,364,364
+222770,Nélson Semedo,DF,0,Carrilero ofensivo,795,La Liga,795,795
+223516,R. Bauer,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+224080,G. Maripán,DF,2,Central corrector,795,La Liga,795,795
+224593,J. Kimmich,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+225022,Rubén Duarte,DF,0,Carrilero ofensivo,795,La Liga,795,795
+225996,Diego Llorente,DF,1,Central constructor,795,La Liga,795,795
+227894,J. Giménez,DF,2,Central corrector,795,La Liga,795,795
+228639,Y. Gerhardt,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+228768,J. Tah,DF,1,Central constructor,426,Bundesliga,426,426
+228963,H. Traoré,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+229427,A. Djiku,DF,2,Central corrector,412,Ligue 1,412,412
+230862,Lekue,DF,0,Carrilero ofensivo,795,La Liga,795,795
+231138,P. Kimpembe,DF,1,Central constructor,412,Ligue 1,412,412
+232822,A. Masina,DF,0,Carrilero ofensivo,524,Serie A,524,524
+235450,A. Diallo,DF,2,Central corrector,426,Bundesliga,426,426
+235597,T. Baumgartl,DF,2,Central corrector,426,Bundesliga,426,426
+235606,T. Kehrer,DF,1,Central constructor,426,Bundesliga,426,426
+236528,N. Elvedi,DF,1,Central constructor,426,Bundesliga,426,426
+241966,G. Jung,DF,2,Central corrector,426,Bundesliga,426,426
+242446,L. Dubois,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+246059,E. Goldaniga,DF,2,Central corrector,524,Serie A,524,524
+246866,A. Mawson,DF,2,Central corrector,364,Premier League,364,364
+247169,Diego González,DF,2,Central corrector,795,La Liga,795,795
+248950,Samir,DF,2,Central corrector,524,Serie A,524,524
+250805,Djené,DF,2,Central corrector,795,La Liga,795,795
+252365,D. Yedlin,DF,0,Carrilero ofensivo,364,Premier League,364,364
+255387,C. Salcedo,DF,2,Central corrector,426,Bundesliga,426,426
+256998,E. Bailly,DF,1,Central constructor,364,Premier League,364,364
+257028,D. Calabria,DF,0,Carrilero ofensivo,524,Serie A,524,524
+257762,D. Sánchez,DF,1,Central constructor,364,Premier League,364,364
+257899,J. Gomez,DF,0,Carrilero ofensivo,364,Premier League,364,364
+258252,L. Klostermann,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+258253,B. Henrichs,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+258263,V. Jovanović,DF,1,Central constructor,412,Ligue 1,412,412
+260250,Wallace,DF,1,Central constructor,524,Serie A,524,524
+263105,Pablo Maffeo,DF,0,Carrilero ofensivo,795,La Liga,795,795
+263432,F. Vicari,DF,2,Central corrector,524,Serie A,524,524
+263433,A. Ferrari,DF,2,Central corrector,524,Serie A,524,524
+263766,Jemerson,DF,2,Central corrector,412,Ligue 1,412,412
+263803,T. Castagne,DF,0,Carrilero ofensivo,524,Serie A,524,524
+266286,Marlon,DF,1,Central constructor,412,Ligue 1,412,412
+268776,W. Hoedt,DF,2,Central corrector,364,Premier League,364,364
+270866,Diego Carlos,DF,2,Central corrector,412,Ligue 1,412,412
+272338,L. Klünter,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+272378,P. Stenzel,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+272434,W. Anton,DF,2,Central corrector,426,Bundesliga,426,426
+275384,Jorge Meré,DF,2,Central corrector,426,Bundesliga,426,426
+276979,F. Mendy,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+278007,F. Ricca,DF,2,Central corrector,795,La Liga,795,795
+278049,E. Cabaco,DF,2,Central corrector,795,La Liga,795,795
+278288,Aritz Elustondo,DF,1,Central constructor,795,La Liga,795,795
+278289,Odriozola,DF,0,Carrilero ofensivo,795,La Liga,795,795
+278867,S. Janko,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+279533,Mario Hermoso,DF,2,Central corrector,795,La Liga,795,795
+279545,L. Hernández,DF,0,Carrilero ofensivo,795,La Liga,795,795
+280419,H. Hateboer,DF,0,Carrilero ofensivo,524,Serie A,524,524
+282438,Aarón,DF,0,Carrilero ofensivo,795,La Liga,795,795
+282550,F. Hadergjonaj,DF,0,Carrilero ofensivo,364,Premier League,364,364
+283832,F. Romagna,DF,2,Central corrector,524,Serie A,524,524
+284960,L. Venuti,DF,0,Carrilero ofensivo,524,Serie A,524,524
+286380,I. Diop,DF,2,Central corrector,412,Ligue 1,412,412
+286825,J. Kenny,DF,0,Carrilero ofensivo,364,Premier League,364,364
+286915,F. Eboa Eboa,DF,2,Central corrector,412,Ligue 1,412,412
+286917,F. Touré,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+288663,M. Caldara,DF,2,Central corrector,524,Serie A,524,524
+290119,M. Niakhaté,DF,2,Central corrector,412,Ligue 1,412,412
+292991,M. Lemos,DF,2,Central corrector,795,La Liga,795,795
+295176,R. Gosens,DF,0,Carrilero ofensivo,524,Serie A,524,524
+296341,Bernardo,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+297957,M. Akanji,DF,1,Central constructor,426,Bundesliga,426,426
+300784,Jorge,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+301013,J. Gelin,DF,1,Central constructor,412,Ligue 1,412,412
+334720,R. Bensebaini,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+336829,R. Koch,DF,2,Central corrector,426,Bundesliga,426,426
+337682,F. Uduokhai,DF,1,Central constructor,426,Bundesliga,426,426
+339964,Y. Salmier,DF,1,Central constructor,412,Ligue 1,412,412
+340646,B. Pavard,DF,1,Central constructor,426,Bundesliga,426,426
+341751,Marc Navarro,DF,0,Carrilero ofensivo,795,La Liga,795,795
+341973,N. Mukiele,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+343685,William,DF,0,Carrilero ofensivo,426,Bundesliga,426,426
+344068,Unai Núñez,DF,2,Central corrector,795,La Liga,795,795
+344132,T. Hernández,DF,0,Carrilero ofensivo,795,La Liga,795,795
+344178,P. Retsos,DF,1,Central constructor,426,Bundesliga,426,426
+344864,C. Söyüncü,DF,2,Central corrector,426,Bundesliga,426,426
+346101,T. Alexander-Arnold,DF,0,Carrilero ofensivo,364,Premier League,364,364
+350976,B. Chilwell,DF,0,Carrilero ofensivo,364,Premier League,364,364
+352986,K. Amian,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+352988,D. Upamecano,DF,1,Central constructor,426,Bundesliga,426,426
+354123,Pol Lirola,DF,0,Carrilero ofensivo,524,Serie A,524,524
+355937,M. Holgate,DF,2,Central corrector,364,Premier League,364,364
+364772,C. Awaziem,DF,2,Central corrector,412,Ligue 1,412,412
+364850,J. Firpo,DF,0,Carrilero ofensivo,795,La Liga,795,795
+365441,R. van Drongelen,DF,2,Central corrector,426,Bundesliga,426,426
+366217,K. Danso,DF,2,Central corrector,426,Bundesliga,426,426
+366563,V. Selimovic,DF,2,Central corrector,412,Ligue 1,412,412
+366581,J. Gnagnon,DF,1,Central constructor,412,Ligue 1,412,412
+372904,K. Dabila,DF,1,Central constructor,412,Ligue 1,412,412
+376362,Luiz Felipe,DF,1,Central constructor,524,Serie A,524,524
+379209,D. Rice,DF,2,Central corrector,364,Premier League,364,364
+388398,G. Pezzella,DF,0,Carrilero ofensivo,524,Serie A,524,524
+393214,V. Rosier,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+393228,M. Sarr,DF,1,Central constructor,412,Ligue 1,412,412
+393247,I. Konaté,DF,2,Central corrector,426,Bundesliga,426,426
+393284,C. Traoré,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+396616,R. Pierre-Gabriel,DF,0,Carrilero ofensivo,412,Ligue 1,412,412
+397168,T. Fosu-Mensah,DF,0,Carrilero ofensivo,364,Premier League,364,364
+403449,Rogério,DF,0,Carrilero ofensivo,524,Serie A,524,524
+410055,Rober,DF,2,Central corrector,795,La Liga,795,795
+410062,J. Koundé,DF,1,Central constructor,412,Ligue 1,412,412
+417231,C. Adjapong,DF,0,Carrilero ofensivo,524,Serie A,524,524
+424241,N. Milenković,DF,2,Central corrector,524,Serie A,524,524
+489488,Martín,DF,0,Carrilero ofensivo,795,La Liga,795,795
+54,C. Eriksen,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+93,J. Guðmundsson,MD,3,Interior de banda,364,Premier League,364,364
+114,K. Strootman,MD,2,Mediocentro defensivo,524,Serie A,524,524
+116,G. Wijnaldum,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+173,R. van La Parra,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+174,F. Đuričić,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+262,L. Fer,MD,2,Mediocentro defensivo,364,Premier League,364,364
+383,D. Tadić,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+466,D. Pröpper,MD,2,Mediocentro defensivo,364,Premier League,364,364
+625,M. de Roon,MD,0,Mediocentro organizador,524,Serie A,524,524
+3280,É. Banega,MD,0,Mediocentro organizador,795,La Liga,795,795
+3282,Canales,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3286,Dani Parejo,MD,0,Mediocentro organizador,795,La Liga,795,795
+3287,Portu,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3314,Á. di María,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+3317,Granero,MD,0,Mediocentro organizador,795,La Liga,795,795
+3318,S. Khedira,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+3319,M. Özil,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+3320,N. Şahin,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+3344,Rafinha,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+3345,Thiago Alcântara,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+3346,Sergio Busquets,MD,0,Mediocentro organizador,795,La Liga,795,795
+3350,Fàbregas,MD,0,Mediocentro organizador,364,Premier League,364,364
+3353,Iniesta,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3384,A. Guardado,MD,0,Mediocentro organizador,795,La Liga,795,795
+3409,San José,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3413,Ander Herrera,MD,0,Mediocentro organizador,364,Premier League,364,364
+3414,Iturraspe,MD,0,Mediocentro organizador,795,La Liga,795,795
+3416,Javi Martínez,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+3420,Susaeta,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3423,Ibai Gómez,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3441,Gabi,MD,0,Mediocentro organizador,795,La Liga,795,795
+3443,Koke,MD,0,Mediocentro organizador,795,La Liga,795,795
+3470,Campaña,MD,0,Mediocentro organizador,795,La Liga,795,795
+3474,Jesús Navas,MD,3,Interior de banda,795,La Liga,795,795
+3476,I. Rakitić,MD,0,Mediocentro organizador,795,La Liga,795,795
+3484,Luis Alberto,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+3503,Raúl García,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3510,Timor,MD,0,Mediocentro organizador,795,La Liga,795,795
+3535,J. de Guzmán,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+3538,M. Wakaso,MD,0,Mediocentro organizador,795,La Liga,795,795
+3542,Trigueros,MD,0,Mediocentro organizador,795,La Liga,795,795
+3543,Borja Valero,MD,0,Mediocentro organizador,524,Serie A,524,524
+3563,Isco,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3566,Camacho,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+3568,Recio,MD,0,Mediocentro organizador,795,La Liga,795,795
+3571,Joaquín,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3572,Portillo,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3573,J. Toulalan,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+3595,Beñat,MD,0,Mediocentro organizador,795,La Liga,795,795
+3645,Chory Castro,MD,3,Interior de banda,795,La Liga,795,795
+3650,Tomás Pina,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3674,Markel Bergara,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3676,Illarramendi,MD,0,Mediocentro organizador,795,La Liga,795,795
+3678,Xabi Prieto,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3680,Zurutuza,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3704,P. Diop,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3705,Adrián,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3797,Víctor Sánchez,MD,0,Mediocentro organizador,795,La Liga,795,795
+3803,Sergi Darder,MD,0,Mediocentro organizador,795,La Liga,795,795
+3843,F. Orellana,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+3866,M. Iturra,MD,2,Mediocentro defensivo,795,La Liga,795,795
+3928,Vicente Iborra,MD,2,Mediocentro defensivo,364,Premier League,364,364
+3934,N. El Zhar,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+4009,M. Lacen,MD,0,Mediocentro organizador,795,La Liga,795,795
+4013,Rubén Pérez,MD,0,Mediocentro organizador,795,La Liga,795,795
+4014,Pedro León,MD,3,Interior de banda,795,La Liga,795,795
+4015,Pablo Sarabia,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+4278,Borja García,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+4332,Javi Fuego,MD,2,Mediocentro defensivo,795,La Liga,795,795
+4361,Javi Castellano,MD,0,Mediocentro organizador,795,La Liga,795,795
+4363,Vicente Gómez,MD,2,Mediocentro defensivo,795,La Liga,795,795
+4365,Roque Mesa,MD,0,Mediocentro organizador,364,Premier League,364,364
+4375,Vitolo,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+4379,Jonathan Viera,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+4488,Saúl,MD,2,Mediocentro defensivo,795,La Liga,795,795
+4511,Pedro Mosquera,MD,2,Mediocentro defensivo,795,La Liga,795,795
+4513,D. Cheryshev,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+4683,A. Szymanowski,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+4911,Jozabed,MD,0,Mediocentro organizador,795,La Liga,795,795
+4969,Tana,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+5195,Omar Ramos,MD,3,Interior de banda,795,La Liga,795,795
+5290,Mikel Rico,MD,2,Mediocentro defensivo,795,La Liga,795,795
+5542,Dani García,MD,0,Mediocentro organizador,795,La Liga,795,795
+6370,Eraso,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+7585,Manu García,MD,2,Mediocentro defensivo,795,La Liga,795,795
+7868,A. Oxlade-Chamberlain,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+7870,A. Ramsey,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+7873,J. Wilshere,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+7899,Oriol Romeu,MD,2,Mediocentro defensivo,364,Premier League,364,364
+7906,Juan Mata,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+7929,T. Cleverley,MD,0,Mediocentro organizador,364,Premier League,364,364
+7932,D. Fletcher,MD,0,Mediocentro organizador,364,Premier League,364,364
+7934,J. Lingard,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+7936,P. Pogba,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+7964,J. Henderson,MD,0,Mediocentro organizador,364,Premier League,364,364
+7965,Lucas Leiva,MD,0,Mediocentro organizador,524,Serie A,524,524
+7967,J. Shelvey,MD,0,Mediocentro organizador,364,Premier League,364,364
+7986,M. Abeid,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+7988,Y. Cabaye,MD,0,Mediocentro organizador,364,Premier League,364,364
+7989,D. Gosling,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8013,M. Albrighton,MD,3,Interior de banda,364,Premier League,364,364
+8086,D. Stephens,MD,0,Mediocentro organizador,364,Premier League,364,364
+8116,N. Redmond,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8125,J. Cork,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8143,M. Schneiderlin,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8144,J. Ward-Prowse,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8200,S. N'Zonzi,MD,0,Mediocentro organizador,795,La Liga,795,795
+8284,A. Lennon,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8285,J. Livermore,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8287,L. Modrić,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+8290,A. Pritchard,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8291,Sandro,MD,0,Mediocentro organizador,524,Serie A,524,524
+8314,G. Barry,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8317,David Silva,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8319,J. Milner,MD,0,Mediocentro organizador,364,Premier League,364,364
+8351,A. Surman,MD,0,Mediocentro organizador,364,Premier League,364,364
+8370,C. Brunt,MD,3,Interior de banda,364,Premier League,364,364
+8422,W. Zaha,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8464,F. Delph,MD,0,Mediocentro organizador,364,Premier League,364,364
+8471,A. Townsend,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8498,A. King,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8530,J. McClean,MD,3,Interior de banda,364,Premier League,364,364
+8533,S. Sessègnon,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+8561,M. Noble,MD,0,Mediocentro organizador,364,Premier League,364,364
+8620,M. Diamé,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8623,J. McArthur,MD,2,Mediocentro defensivo,364,Premier League,364,364
+8625,V. Moses,MD,3,Interior de banda,364,Premier League,364,364
+8897,J. Hogg,MD,0,Mediocentro organizador,364,Premier League,364,364
+8925,A. Westwood,MD,0,Mediocentro organizador,364,Premier League,364,364
+8959,J. Stanislas,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8976,T. Carroll,MD,0,Mediocentro organizador,364,Premier League,364,364
+8980,J. Hendrick,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+8981,W. Hughes,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+9080,A. Taarabt,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+9227,M. Ritchie,MD,3,Interior de banda,364,Premier League,364,364
+9283,H. Arter,MD,0,Mediocentro organizador,364,Premier League,364,364
+9293,M. Pugh,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+9414,M. Phillips,MD,3,Interior de banda,364,Premier League,364,364
+9419,T. Ince,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+9623,R. Brady,MD,3,Interior de banda,364,Premier League,364,364
+9739,J. Ibe,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+10252,S. Clucas,MD,2,Mediocentro defensivo,364,Premier League,364,364
+11152,M. Dembélé,MD,0,Mediocentro organizador,364,Premier League,364,364
+11294,S. Arfield,MD,2,Mediocentro defensivo,364,Premier League,364,364
+13484,D. Alli,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+14692,P. Bargfrede,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+14696,Z. Junuzović,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14706,A. Hunt,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14722,Luiz Gustavo,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+14723,T. Kroos,MD,0,Mediocentro organizador,795,La Liga,795,795
+14726,F. Ribéry,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14727,A. Robben,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14754,C. Gentner,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+14770,G. Castro,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+14781,L. Bender,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+14786,K. Bellarabi,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14802,M. Bakalorz,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+14806,M. Götze,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14808,İ. Gündoğan,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+14812,I. Perišić,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+14816,S. Kagawa,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14836,T. Inui,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+14838,C. Kramer,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+14862,J. Draxler,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+14863,M. Höger,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+14864,L. Holtby,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+14866,Jurado,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+14903,T. Rincón,MD,0,Mediocentro organizador,524,Serie A,524,524
+14905,P. Skjelbred,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+14929,M. Hasebe,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+14938,M. Arnold,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+14989,D. Caligiuri,MD,3,Interior de banda,426,Bundesliga,426,426
+14997,J. Schmid,MD,3,Interior de banda,426,Bundesliga,426,426
+14998,J. Schuster,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15012,H. Nordtveit,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15018,P. Herrmann,MD,3,Interior de banda,426,Bundesliga,426,426
+15129,D. Didavi,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+15131,M. Frantz,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+15188,J. Baumgartlinger,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15191,Y. Mallı,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+15194,M. Risse,MD,3,Interior de banda,426,Bundesliga,426,426
+15253,M. Lehmann,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15256,P. Schwegler,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15276,M. Weiser,MD,3,Interior de banda,426,Bundesliga,426,426
+15317,L. Bittencourt,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+15430,N. Höfler,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+15456,F. Klaus,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+15487,J. Haberer,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+15524,H. Çalhanoğlu,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+15526,P. Groß,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+15695,M. Heller,MD,3,Interior de banda,426,Bundesliga,426,426
+15777,D. Baier,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15781,Ja-Cheol Koo,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+15811,S. Rudy,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15823,D. Williams,MD,2,Mediocentro defensivo,364,Premier League,364,364
+15937,D. Demme,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+15942,L. Rupp,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+16027,F. Bartels,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+16110,K. Kampl,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+16303,D. Latza,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+16432,Caiuby,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+16826,R. Khedira,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+18550,E. Can,MD,2,Mediocentro defensivo,364,Premier League,364,364
+18591,J. Hofmann,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+18982,N. Schulz,MD,3,Interior de banda,426,Bundesliga,426,426
+20401,A. Aquilani,MD,0,Mediocentro organizador,795,La Liga,795,795
+20402,K. Boateng,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+20404,B. Cristante,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+20414,M. Valoti,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20438,D. De Rossi,MD,0,Mediocentro organizador,524,Serie A,524,524
+20443,M. Pjanić,MD,0,Mediocentro organizador,524,Serie A,524,524
+20448,F. Viviani,MD,0,Mediocentro organizador,524,Serie A,524,524
+20468,E. Giaccherini,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+20472,S. Padoin,MD,3,Interior de banda,524,Serie A,524,524
+20475,A. Vidal,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+20525,J. Obi,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20529,A. Poli,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20556,A. Candreva,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+20561,S. Lulić,MD,3,Interior de banda,524,Serie A,524,524
+20588,K. Asamoah,MD,0,Mediocentro organizador,524,Serie A,524,524
+20591,G. Fernandes,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+20593,R. Pereyra,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+20620,Pedro Obiang,MD,0,Mediocentro organizador,364,Premier League,364,364
+20623,R. Soriano,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+20653,P. Hetemaj,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20655,L. Rigoni,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20685,R. Krhin,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+20689,G. Ramírez,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+20749,A. Bertolacci,MD,0,Mediocentro organizador,524,Serie A,524,524
+20751,J. Cuadrado,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+20812,A. Acquah,MD,0,Mediocentro organizador,524,Serie A,524,524
+20815,A. Barberis,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20816,É. Barreto,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20823,F. Vázquez,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+20845,G. Bonaventura,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+20850,L. Cigarini,MD,0,Mediocentro organizador,524,Serie A,524,524
+20876,A. Ekdal,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+20879,R. Nainggolan,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+20911,P. Schiattarella,MD,0,Mediocentro organizador,524,Serie A,524,524
+20935,Rômulo,MD,3,Interior de banda,524,Serie A,524,524
+20938,V. Behrami,MD,2,Mediocentro defensivo,524,Serie A,524,524
+20943,R. Montolivo,MD,0,Mediocentro organizador,524,Serie A,524,524
+21025,R. Saponara,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+21148,N. Rigoni,MD,0,Mediocentro organizador,524,Serie A,524,524
+21169,B. Džemaili,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+21171,M. Hamšík,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+21288,Miguel Veloso,MD,0,Mediocentro organizador,524,Serie A,524,524
+21291,V. Birsa,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+21315,Jorginho,MD,0,Mediocentro organizador,524,Serie A,524,524
+21350,M. Parolo,MD,2,Mediocentro defensivo,524,Serie A,524,524
+21383,M. Verratti,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+21507,D. Baselli,MD,2,Mediocentro defensivo,524,Serie A,524,524
+21564,I. Radovanović,MD,0,Mediocentro organizador,524,Serie A,524,524
+21620,J. Kurtič,MD,2,Mediocentro defensivo,524,Serie A,524,524
+21894,Keko,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+22099,M. Büchel,MD,0,Mediocentro organizador,524,Serie A,524,524
+22162,F. Magnanelli,MD,0,Mediocentro organizador,524,Serie A,524,524
+22163,S. Missiroli,MD,2,Mediocentro defensivo,524,Serie A,524,524
+22323,L. Memushaj,MD,0,Mediocentro organizador,524,Serie A,524,524
+22380,M. Benassi,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+22381,Daniel Bessa,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+22383,A. Duncan,MD,3,Interior de banda,524,Serie A,524,524
+22566,A. Florenzi,MD,3,Interior de banda,524,Serie A,524,524
+22695,N. Viola,MD,0,Mediocentro organizador,524,Serie A,524,524
+22864,L. Mora,MD,2,Mediocentro defensivo,524,Serie A,524,524
+23427,M. Fossati,MD,0,Mediocentro organizador,524,Serie A,524,524
+25405,M. Gonalons,MD,0,Mediocentro organizador,524,Serie A,524,524
+25407,C. Grenier,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+25437,B. Matuidi,MD,2,Mediocentro defensivo,524,Serie A,524,524
+25439,T. Motta,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25440,J. Pastore,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+25461,R. Boudebouz,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+25470,S. Prcić,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25492,T. Monconduit,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25503,G. Mandjeck,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+25504,S. Meïté,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+25532,V. Bessat,MD,3,Interior de banda,412,Ligue 1,412,412
+25537,G. Krychowiak,MD,0,Mediocentro organizador,364,Premier League,364,364
+25541,J. Veretout,MD,0,Mediocentro organizador,524,Serie A,524,524
+25596,J. Plašil,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25623,G. Kondogbia,MD,0,Mediocentro organizador,795,La Liga,795,795
+25647,J. Féret,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25649,Y. M'Vila,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25650,V. Pajot,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+25706,I. Gueye,MD,0,Mediocentro organizador,364,Premier League,364,364
+25714,D. Payet,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+25743,B. Sarr,MD,3,Interior de banda,412,Ligue 1,412,412
+25764,Y. Cahuzac,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+25776,W. Khazri,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+25798,E. Capoue,MD,0,Mediocentro organizador,364,Premier League,364,364
+25800,É. Didot,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25804,M. Sissoko,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+25805,F. Tabanou,MD,3,Interior de banda,412,Ligue 1,412,412
+25826,B. André,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+25829,P. Lasne,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+25835,F. Sammaritano,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+25861,J. Guilavogui,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+25888,F. Fajr,MD,3,Interior de banda,795,La Liga,795,795
+25891,B. Nivet,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+25939,M. Diallo,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+25942,G. Imbula,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+25950,A. Knockaert,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+25995,B. Stambouli,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+25999,R. Cabella,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+26000,B. Dabo,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+26032,C. Doukouré,MD,2,Mediocentro defensivo,795,La Liga,795,795
+26065,J. Martin,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+26100,N. Sliti,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+26120,T. Mangani,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+26150,R. Mahrez,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+26285,A. Gonçalves,MD,3,Interior de banda,412,Ligue 1,412,412
+26311,R. Amalfitano,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+26314,L. Deaux,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+26381,B. Corgnet,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+26384,G. Kakuta,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+26389,Y. Sankharé,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+26508,R. Cohade,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+26512,M. Dossevi,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+26518,C. Sánchez,MD,2,Mediocentro defensivo,795,La Liga,795,795
+26539,P. Oniangué,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+26604,Y. Salibur,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+26652,D. Wass,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+26956,N. Benezet,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+27646,P. Capelle,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+28115,N. Fekir,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+28117,R. Ghezzal,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+28230,A. Tameze,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+28232,I. Amadou,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+28291,T. Bakayoko,MD,2,Mediocentro defensivo,364,Premier League,364,364
+28292,A. Doucouré,MD,0,Mediocentro organizador,364,Premier League,364,364
+28866,K. Azamoum,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+28922,T. Lemar,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+28990,D. Liénard,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+29640,M. Lemina,MD,0,Mediocentro organizador,364,Premier League,364,364
+29641,B. Pelé,MD,3,Interior de banda,412,Ligue 1,412,412
+30427,J. Marié,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+30437,F. Mollet,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+31528,N. Kanté,MD,0,Mediocentro organizador,364,Premier League,364,364
+32652,E. Çolak,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+37725,C. Kouyaté,MD,2,Mediocentro defensivo,364,Premier League,364,364
+37732,L. Biglia,MD,0,Mediocentro organizador,524,Serie A,524,524
+37739,D. Praet,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+38015,S. Peeters,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+38021,K. De Bruyne,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+40550,Paulinho,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+40614,Guilherme,MD,0,Mediocentro organizador,795,La Liga,795,795
+40726,Allan,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+40756,Casemiro,MD,0,Mediocentro organizador,795,La Liga,795,795
+40806,Felipe Anderson,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+41056,Thiago Mendes,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+41174,M. Lanzini,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+43051,Gabriel,MD,2,Mediocentro defensivo,795,La Liga,795,795
+43196,Somália,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+43515,Andrei Girotto,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+49997,S. Zuber,MD,3,Interior de banda,426,Bundesliga,426,426
+49872,X. Shaqiri,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+49876,G. Xhaka,MD,0,Mediocentro organizador,364,Premier League,364,364
+49991,R. Freuler,MD,0,Mediocentro organizador,524,Serie A,524,524
+50073,A. Ioniţă,MD,2,Mediocentro defensivo,524,Serie A,524,524
+50812,J. Durmaz,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+51004,C. Borges,MD,2,Mediocentro defensivo,795,La Liga,795,795
+51013,R. Quaison,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+51132,E. Forsberg,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+51145,O. Hiljemark,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+51151,M. Rohdén,MD,2,Mediocentro defensivo,524,Serie A,524,524
+54380,O. Selnæs,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+55990,T. Delaney,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+56025,M. Krohn-Dehli,MD,0,Mediocentro organizador,795,La Liga,795,795
+56441,L. Lerager,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+61962,Sung-Yeung Ki,MD,0,Mediocentro organizador,364,Premier League,364,364
+61988,S. Davis,MD,0,Mediocentro organizador,364,Premier League,364,364
+62224,R. Fraser,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+62389,A. Mooy,MD,0,Mediocentro organizador,364,Premier League,364,364
+65027,S. Ilsanker,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+65055,F. Kainz,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+65596,M. Sabitzer,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+69400,M. Badelj,MD,0,Mediocentro organizador,524,Serie A,524,524
+69404,M. Kovačić,MD,0,Mediocentro organizador,795,La Liga,795,795
+69968,M. Brozović,MD,0,Mediocentro organizador,524,Serie A,524,524
+70092,S. Defour,MD,0,Mediocentro organizador,364,Premier League,364,364
+70093,João Moutinho,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+70096,J. Rodríguez,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+70120,Javi García,MD,0,Mediocentro organizador,795,La Liga,795,795
+70122,N. Matić,MD,0,Mediocentro organizador,364,Premier League,364,364
+70156,A. Carrillo,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+70215,C. Atsu,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+70834,Guilherme,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+70965,João Mário,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+77548,J. Allen,MD,2,Mediocentro defensivo,364,Premier League,364,364
+77552,N. Dyer,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+77558,G. Sigurðsson,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+82518,V. Darida,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+83836,A. Maxim,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+86301,L. Castro,MD,2,Mediocentro defensivo,524,Serie A,524,524
+86308,C. Yacob,MD,2,Mediocentro defensivo,364,Premier League,364,364
+86309,B. Zuculini,MD,2,Mediocentro defensivo,524,Serie A,524,524
+86486,G. Poblete,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+86828,G. Pizarro,MD,2,Mediocentro defensivo,795,La Liga,795,795
+89559,C. Aránguiz,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+90268,E. Pulgar,MD,0,Mediocentro organizador,524,Serie A,524,524
+91064,D. Torres,MD,0,Mediocentro organizador,795,La Liga,795,795
+93044,S. Darbion,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+94828,G. Shibasaki,MD,2,Mediocentro defensivo,795,La Liga,795,795
+99902,P. Zieliński,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+105333,Willian,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+105334,Douglas Costa,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+105338,H. Mkhitaryan,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+105339,Fernandinho,MD,0,Mediocentro organizador,364,Premier League,364,364
+105378,Y. Konoplyanka,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+116171,João Pedro,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+116269,D. Laxalt,MD,3,Interior de banda,524,Serie A,524,524
+140125,N. Radoja,MD,2,Mediocentro defensivo,795,La Liga,795,795
+116349,M. Vecino,MD,2,Mediocentro defensivo,524,Serie A,524,524
+127534,D. Lazović,MD,3,Interior de banda,524,Serie A,524,524
+127537,L. Milivojević,MD,0,Mediocentro organizador,364,Premier League,364,364
+127685,M. Jojić,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+127796,F. Kostić,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+127928,D. Brašanac,MD,2,Mediocentro defensivo,795,La Liga,795,795
+131959,J. Seri,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+134174,Samu Castillejo,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+134294,I. Hayden,MD,2,Mediocentro defensivo,364,Premier League,364,364
+134369,M. Meyer,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+134387,L. Goretzka,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+134397,S. Gnabry,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+134435,A. Grassi,MD,2,Mediocentro defensivo,524,Serie A,524,524
+134508,S. Fofana,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+134542,N. Mendy,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+135114,P. Højbjerg,MD,0,Mediocentro organizador,364,Premier League,364,364
+135561,F. Grillitsch,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+135913,Rony Lopes,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+136011,M. Gaćinović,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+138174,K. Linetty,MD,2,Mediocentro defensivo,524,Serie A,524,524
+141172,J. Aholou,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+144766,N. Bentaleb,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+146583,J. Brandt,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+149053,R. Walter,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+149062,T. Dingomé,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+165425,D. Kohr,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+167641,S. Lobotka,MD,0,Mediocentro organizador,795,La Liga,795,795
+190167,L. Spinazzola,MD,3,Interior de banda,524,Serie A,524,524
+192748,M. James,MD,2,Mediocentro defensivo,364,Premier League,364,364
+207001,J. Correa,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+207143,Fabinho,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+207164,B. N'Diaye,MD,2,Mediocentro defensivo,364,Premier League,364,364
+208089,I. Fossum,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+208652,V. Lazaro,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+209028,A. Thomasson,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+209086,M. Sanson,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+209091,C. Tolisso,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+209117,A. Rabiot,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+209209,F. Tait,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+210044,E. Dier,MD,0,Mediocentro organizador,364,Premier League,364,364
+212644,G. Escalante,MD,2,Mediocentro defensivo,795,La Liga,795,795
+213948,R. de Paul,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+214062,Álex Granell,MD,0,Mediocentro organizador,795,La Liga,795,795
+215983,S. Boufal,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+217031,Thomas,MD,0,Mediocentro organizador,795,La Liga,795,795
+217872,J. Iloki,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+217874,A. Touré,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+220341,R. Chibsah,MD,2,Mediocentro defensivo,524,Serie A,524,524
+220359,P. Faragò,MD,3,Interior de banda,524,Serie A,524,524
+221333,K. Demirbay,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+223560,L. Öztunali,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+224677,J. Weigl,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+224680,M. Wolf,MD,3,Interior de banda,426,Bundesliga,426,426
+224896,G. Holtmann,MD,3,Interior de banda,426,Bundesliga,426,426
+224971,E. Thommy,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+225089,José Luis Morales,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+225948,Rubén Peña,MD,3,Interior de banda,795,La Liga,795,795
+226005,Burgui,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+226200,M. Lazzari,MD,3,Interior de banda,524,Serie A,524,524
+228928,A. Marušić,MD,3,Interior de banda,524,Serie A,524,524
+228980,J. Gbamin,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+228981,B. Bourigeaud,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+228983,W. Cyprien,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+229124,A. Hunou,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+229198,H. Manzala,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+230020,A. Iwobi,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+230895,Pere Pons,MD,2,Mediocentro defensivo,795,La Liga,795,795
+230897,Fede Cartabia,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+234138,J. Repas,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+234527,A. Halilović,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+235555,R. Loftus-Cheek,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+237269,S. Lukić,MD,0,Mediocentro organizador,795,La Liga,795,795
+240445,Andreas Pereira,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+241676,R. Gagliardini,MD,2,Mediocentro defensivo,524,Serie A,524,524
+241945,P. Sisto,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+244357,B. Zungu,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+245364,L. Sané,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+246063,S. Sensi,MD,0,Mediocentro organizador,524,Serie A,524,524
+246946,E. Skhiri,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+247207,Joan Jordán,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+247219,Víctor Camarasa,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+247220,Jason,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+247222,Medrán,MD,0,Mediocentro organizador,795,La Liga,795,795
+247248,S. March,MD,3,Interior de banda,364,Premier League,364,364
+253333,A. Blin,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+254898,Kenedy,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+255738,J. Lerma,MD,2,Mediocentro defensivo,795,La Liga,795,795
+256084,Kwon Chang-Hoon,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+256478,D. Cataldi,MD,0,Mediocentro organizador,524,Serie A,524,524
+256706,L. Phiri,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+256992,A. Fulgini,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+257750,Thiago Maia,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+260002,V. Rongier,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+261127,A. Januzaj,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+263091,Gumbau,MD,0,Mediocentro organizador,795,La Liga,795,795
+263614,N. Amiri,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+263802,Y. Tielemans,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+265172,A. Barák,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+265366,W. Ndidi,MD,2,Mediocentro defensivo,364,Premier League,364,364
+265673,Bernardo Silva,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+265865,S. Milinković-Savić,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+269060,P. Hernández,MD,2,Mediocentro defensivo,795,La Liga,795,795
+272363,M. Dahoud,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+272440,M. Eggestein,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+273819,Xeka,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+274344,B. Santamaria,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+275243,S. Khaoui,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+277629,P. Lees Melou,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+278813,S. Bastien,MD,2,Mediocentro defensivo,524,Serie A,524,524
+279555,Iván Alejo,MD,3,Interior de banda,795,La Liga,795,795
+279717,A. Maitland-Niles,MD,0,Mediocentro organizador,364,Premier League,364,364
+279734,V. Koziello,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+280115,M. Lopez,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+280383,E. Bardhi,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+282804,K. Laimer,MD,3,Interior de banda,426,Bundesliga,426,426
+283142,D. Gray,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+284469,J. Brekalo,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+285109,F. Kessié,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+286223,N. Barella,MD,0,Mediocentro organizador,524,Serie A,524,524
+286448,M. Arambarri,MD,2,Mediocentro defensivo,795,La Liga,795,795
+288091,Marco Asensio,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+289359,Y. Aït Bennasser,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+289711,N. Keïta,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+292310,L. Mazzitelli,MD,2,Mediocentro defensivo,524,Serie A,524,524
+293686,J. Murphy,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+294695,T. Ndombèlé,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+295273,G. Donsah,MD,2,Mediocentro defensivo,524,Serie A,524,524
+295569,Otávio,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+300669,A. Balić,MD,0,Mediocentro organizador,524,Serie A,524,524
+302518,L. Cook,MD,0,Mediocentro organizador,364,Premier League,364,364
+302550,Brais Méndez,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+302600,S. Serdar,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+302799,R. Mandragora,MD,2,Mediocentro defensivo,524,Serie A,524,524
+325781,J. Lea Siliki,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+327009,Walace,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+328333,L. Pellegrini,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+330387,M. Coco,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+332605,Ramadan Sobhi,MD,1,Mediocentro ofensivo,364,Premier League,364,364
+333571,L. Torreira,MD,0,Mediocentro organizador,524,Serie A,524,524
+335763,J. Sambia,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+339789,Mikel Merino,MD,2,Mediocentro defensivo,364,Premier League,364,364
+340019,Gerson,MD,2,Mediocentro defensivo,524,Serie A,524,524
+340920,L. Blas,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+342743,L. Tousart,MD,2,Mediocentro defensivo,412,Ligue 1,412,412
+344075,Iñigo Córdoba,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+345707,B. Özcan,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+346195,Fabián,MD,0,Mediocentro organizador,795,La Liga,795,795
+353236,T. Davies,MD,2,Mediocentro defensivo,364,Premier League,364,364
+354547,J. Jankto,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+355599,Mikel Oyarzabal,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+356237,G. Lo Celso,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+356903,S. Özcan,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+359847,Alfonso Pedraza,MD,3,Interior de banda,795,La Liga,795,795
+360992,D. Zakaria,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+364005,F. Valverde,MD,0,Mediocentro organizador,795,La Liga,795,795
+364644,A. Dioussé,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+364860,Rodri,MD,0,Mediocentro organizador,795,La Liga,795,795
+366401,A. Zambo Anguissa,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+367621,D. Geiger,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+372752,Carlos Soler,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+372915,A. Harit,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+375001,I. Sangaré,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+391530,C. Pulisic,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+391606,T. Ito,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+395114,Zubeldía,MD,0,Mediocentro organizador,795,La Liga,795,795
+397046,H. Aouar,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+399676,Pablo Fornals,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+404219,M. Cuisance,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+412897,Dani Raba,MD,1,Mediocentro ofensivo,795,La Liga,795,795
+413582,Y. Bissouma,MD,0,Mediocentro organizador,412,Ligue 1,412,412
+413737,S. Ascacíbar,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+415809,F. Depaoli,MD,3,Interior de banda,524,Serie A,524,524
+425925,K. Havertz,MD,1,Mediocentro ofensivo,426,Bundesliga,426,426
+425926,A. Maier,MD,0,Mediocentro organizador,426,Bundesliga,426,426
+447804,F. Chiesa,MD,1,Mediocentro ofensivo,524,Serie A,524,524
+448079,I. Sarr,MD,1,Mediocentro ofensivo,412,Ligue 1,412,412
+471348,W. McKennie,MD,2,Mediocentro defensivo,426,Bundesliga,426,426
+118,M. Depay,FW,0,Delantero creativo,412,Ligue 1,412,412
+122,D. Mertens,FW,0,Delantero creativo,524,Serie A,524,524
+151,J. Guidetti,FW,1,Delantero referencia,795,La Liga,795,795
+382,Suk Hyun-Jun,FW,1,Delantero referencia,412,Ligue 1,412,412
+3290,Aduriz,FW,1,Delantero referencia,795,La Liga,795,795
+3293,P. Piatti,FW,2,Delantero trabajador,795,La Liga,795,795
+3313,José Callejón,FW,0,Delantero creativo,524,Serie A,524,524
+3321,K. Benzema,FW,0,Delantero creativo,795,La Liga,795,795
+3322,Cristiano Ronaldo,FW,0,Delantero creativo,795,La Liga,795,795
+3323,G. Higuaín,FW,0,Delantero creativo,524,Serie A,524,524
+3324,Álvaro Morata,FW,1,Delantero referencia,364,Premier League,364,364
+3327,Joselu,FW,1,Delantero referencia,364,Premier League,364,364
+3348,Deulofeu,FW,0,Delantero creativo,795,La Liga,795,795
+3358,Cristian Tello,FW,2,Delantero trabajador,795,La Liga,795,795
+3359,L. Messi,FW,0,Delantero creativo,795,La Liga,795,795
+3360,Pedro,FW,0,Delantero creativo,364,Premier League,364,364
+3361,A. Sánchez,FW,0,Delantero creativo,364,Premier League,364,364
+3450,R. Falcao,FW,1,Delantero referencia,412,Ligue 1,412,412
+3451,Adrián López,FW,2,Delantero trabajador,795,La Liga,795,795
+3475,D. Perotti,FW,0,Delantero creativo,524,Serie A,524,524
+3576,Juanmi,FW,1,Delantero referencia,795,La Liga,795,795
+3577,S. Rondón,FW,1,Delantero referencia,364,Premier League,364,364
+3605,Jorge Molina,FW,1,Delantero referencia,795,La Liga,795,795
+3682,A. Griezmann,FW,0,Delantero creativo,795,La Liga,795,795
+3710,K. Babacar,FW,1,Delantero referencia,524,Serie A,524,524
+3714,C. Stuani,FW,1,Delantero referencia,795,La Liga,795,795
+3802,Philippe Coutinho,FW,0,Delantero creativo,795,La Liga,795,795
+3816,Sergio García,FW,0,Delantero creativo,795,La Liga,795,795
+3840,Iago Aspas,FW,0,Delantero creativo,795,La Liga,795,795
+3874,Kike García,FW,1,Delantero referencia,795,La Liga,795,795
+3875,Borja Bastón,FW,1,Delantero referencia,795,La Liga,795,795
+3937,Roger,FW,1,Delantero referencia,795,La Liga,795,795
+4048,Sergi Enrich,FW,1,Delantero referencia,795,La Liga,795,795
+4131,Ángel,FW,1,Delantero referencia,795,La Liga,795,795
+4338,Diego Costa,FW,1,Delantero referencia,795,La Liga,795,795
+4498,Lucas Vázquez,FW,0,Delantero creativo,795,La Liga,795,795
+5167,Mariano Díaz,FW,1,Delantero referencia,412,Ligue 1,412,412
+5268,Sergio León,FW,1,Delantero referencia,795,La Liga,795,795
+5400,Gerard Moreno,FW,1,Delantero referencia,795,La Liga,795,795
+5481,Guerrero,FW,1,Delantero referencia,795,La Liga,795,795
+5911,Sandro,FW,0,Delantero creativo,795,La Liga,795,795
+6165,F. Andone,FW,1,Delantero referencia,795,La Liga,795,795
+7623,Léo Baptistão,FW,2,Delantero trabajador,795,La Liga,795,795
+7879,T. Walcott,FW,2,Delantero trabajador,364,Premier League,364,364
+7904,S. Kalou,FW,2,Delantero trabajador,426,Bundesliga,426,426
+7905,R. Lukaku,FW,1,Delantero referencia,364,Premier League,364,364
+7908,Fernando Torres,FW,1,Delantero referencia,795,La Liga,795,795
+7941,J. Hernández,FW,1,Delantero referencia,364,Premier League,364,364
+7944,W. Rooney,FW,2,Delantero trabajador,364,Premier League,364,364
+7945,D. Welbeck,FW,1,Delantero referencia,364,Premier League,364,364
+7972,L. Suárez,FW,0,Delantero creativo,795,La Liga,795,795
+8148,Iago Falqué,FW,0,Delantero creativo,524,Serie A,524,524
+8278,G. Bale,FW,0,Delantero creativo,795,La Liga,795,795
+8296,J. Defoe,FW,1,Delantero referencia,364,Premier League,364,364
+8325,S. Agüero,FW,0,Delantero creativo,364,Premier League,364,364
+8326,M. Balotelli,FW,1,Delantero referencia,412,Ligue 1,412,412
+8327,E. Džeko,FW,1,Delantero referencia,524,Serie A,524,524
+8384,S. Long,FW,1,Delantero referencia,364,Premier League,364,364
+8416,G. Murray,FW,1,Delantero referencia,364,Premier League,364,364
+8628,F. Di Santo,FW,1,Delantero referencia,426,Bundesliga,426,426
+8677,M. Antonio,FW,2,Delantero trabajador,364,Premier League,364,364
+8717,H. Kane,FW,0,Delantero creativo,364,Premier League,364,364
+8747,P. Crouch,FW,1,Delantero referencia,364,Premier League,364,364
+8903,T. Deeney,FW,1,Delantero referencia,364,Premier League,364,364
+8953,C. Austin,FW,1,Delantero referencia,364,Premier League,364,364
+8958,J. Rodriguez,FW,1,Delantero referencia,364,Premier League,364,364
+9123,A. Barnes,FW,1,Delantero referencia,364,Premier League,364,364
+9127,S. Vokes,FW,1,Delantero referencia,364,Premier League,364,364
+9206,C. Wood,FW,1,Delantero referencia,364,Premier League,364,364
+9637,J. King,FW,0,Delantero creativo,364,Premier League,364,364
+10663,A. Gray,FW,1,Delantero referencia,364,Premier League,364,364
+11063,Suso,FW,0,Delantero creativo,524,Serie A,524,524
+11066,R. Sterling,FW,0,Delantero creativo,364,Premier League,364,364
+11156,M. Trotta,FW,2,Delantero trabajador,524,Serie A,524,524
+11669,C. Wilson,FW,1,Delantero referencia,364,Premier League,364,364
+12536,D. Gayle,FW,1,Delantero referencia,364,Premier League,364,364
+12829,J. Vardy,FW,1,Delantero referencia,364,Premier League,364,364
+14703,M. Arnautović,FW,0,Delantero creativo,364,Premier League,364,364
+14705,N. Füllkrug,FW,1,Delantero referencia,426,Bundesliga,426,426
+14731,M. Gómez,FW,1,Delantero referencia,426,Bundesliga,426,426
+14732,T. Müller,FW,0,Delantero creativo,426,Bundesliga,426,426
+14734,N. Petersen,FW,1,Delantero referencia,426,Bundesliga,426,426
+14760,M. Harnik,FW,1,Delantero referencia,426,Bundesliga,426,426
+14762,V. Ibišević,FW,1,Delantero referencia,426,Bundesliga,426,426
+14763,S. Okazaki,FW,1,Delantero referencia,364,Premier League,364,364
+14789,A. Schürrle,FW,0,Delantero creativo,426,Bundesliga,426,426
+14817,R. Lewandowski,FW,1,Delantero referencia,426,Bundesliga,426,426
+14845,D. Ginczek,FW,1,Delantero referencia,426,Bundesliga,426,426
+173214,T. Werner,FW,0,Delantero creativo,426,Bundesliga,426,426
+14911,Son Heung-Min,FW,0,Delantero creativo,364,Premier League,364,364
+14943,M. Mandžukić,FW,2,Delantero trabajador,524,Serie A,524,524
+14945,G. Sio,FW,1,Delantero referencia,412,Ligue 1,412,412
+15004,I. Santini,FW,1,Delantero referencia,412,Ligue 1,412,412
+15020,M. Leckie,FW,2,Delantero trabajador,426,Bundesliga,426,426
+15024,M. Reus,FW,0,Delantero creativo,426,Bundesliga,426,426
+15051,L. Stindl,FW,2,Delantero trabajador,426,Bundesliga,426,426
+15054,M. Diouf,FW,2,Delantero trabajador,364,Premier League,364,364
+15085,S. Wagner,FW,1,Delantero referencia,426,Bundesliga,426,426
+15107,Raffael,FW,0,Delantero creativo,426,Bundesliga,426,426
+15198,E. Choupo-Moting,FW,2,Delantero trabajador,364,Premier League,364,364
+15231,K. Volland,FW,1,Delantero referencia,426,Bundesliga,426,426
+15232,B. Wood,FW,1,Delantero referencia,426,Bundesliga,426,426
+15292,M. Uth,FW,1,Delantero referencia,426,Bundesliga,426,426
+15533,M. Terrazzino,FW,2,Delantero trabajador,426,Bundesliga,426,426
+15543,S. Zoller,FW,2,Delantero trabajador,426,Bundesliga,426,426
+15808,Roberto Firmino,FW,0,Delantero creativo,364,Premier League,364,364
+15877,A. Hahn,FW,2,Delantero trabajador,426,Bundesliga,426,426
+16025,M. Kruse,FW,0,Delantero creativo,426,Bundesliga,426,426
+16094,S. Terodde,FW,1,Delantero referencia,426,Bundesliga,426,426
+16122,E. Kachunga,FW,2,Delantero trabajador,364,Premier League,364,364
+16436,C. Quaner,FW,2,Delantero trabajador,364,Premier League,364,364
+19392,M. Philipp,FW,1,Delantero referencia,426,Bundesliga,426,426
+20418,S. El Shaarawy,FW,0,Delantero creativo,524,Serie A,524,524
+20422,Maxi López,FW,1,Delantero referencia,524,Serie A,524,524
+20449,F. Borini,FW,2,Delantero trabajador,524,Serie A,524,524
+20478,A. Matri,FW,1,Delantero referencia,524,Serie A,524,524
+20479,F. Quagliarella,FW,1,Delantero referencia,524,Serie A,524,524
+20536,G. Pazzini,FW,1,Delantero referencia,524,Serie A,524,524
+20661,A. Paloschi,FW,1,Delantero referencia,524,Serie A,524,524
+20663,C. Théréau,FW,0,Delantero creativo,524,Serie A,524,524
+20692,I. Belfodil,FW,1,Delantero referencia,426,Bundesliga,426,426
+20764,L. Muriel,FW,1,Delantero referencia,795,La Liga,795,795
+20796,M. Destro,FW,1,Delantero referencia,524,Serie A,524,524
+20820,J. Iličić,FW,0,Delantero creativo,524,Serie A,524,524
+20857,M. Gabbiadini,FW,1,Delantero referencia,364,Premier League,364,364
+20941,A. Ljajić,FW,0,Delantero creativo,524,Serie A,524,524
+20947,A. Cerci,FW,0,Delantero creativo,524,Serie A,524,524
+20949,Ryder Matos,FW,2,Delantero trabajador,524,Serie A,524,524
+21077,A. Gómez,FW,0,Delantero creativo,524,Serie A,524,524
+21114,M. Antenucci,FW,1,Delantero referencia,524,Serie A,524,524
+21123,S. Verdi,FW,0,Delantero creativo,524,Serie A,524,524
+21174,E. Cavani,FW,1,Delantero referencia,412,Ligue 1,412,412
+21177,G. Pandev,FW,0,Delantero creativo,524,Serie A,524,524
+21234,A. Belotti,FW,1,Delantero referencia,524,Serie A,524,524
+21296,R. Palacio,FW,1,Delantero referencia,524,Serie A,524,524
+21322,M. D'Alessandro,FW,2,Delantero trabajador,524,Serie A,524,524
+21376,G. Caprari,FW,0,Delantero creativo,524,Serie A,524,524
+21384,C. Immobile,FW,0,Delantero creativo,524,Serie A,524,524
+21385,L. Insigne,FW,0,Delantero creativo,524,Serie A,524,524
+21438,R. Inglese,FW,1,Delantero referencia,524,Serie A,524,524
+21655,A. Stoian,FW,2,Delantero trabajador,524,Serie A,524,524
+21861,D. Falcinelli,FW,1,Delantero referencia,524,Serie A,524,524
+21865,M. Sau,FW,1,Delantero referencia,524,Serie A,524,524
+22020,A. Galabinov,FW,1,Delantero referencia,524,Serie A,524,524
+22202,S. Zaza,FW,1,Delantero referencia,795,La Liga,795,795
+22933,L. Pavoletti,FW,1,Delantero referencia,524,Serie A,524,524
+23314,Diego Farias,FW,0,Delantero creativo,524,Serie A,524,524
+24269,M. Coda,FW,1,Delantero referencia,524,Serie A,524,524
+24964,M. Pucciarelli,FW,1,Delantero referencia,524,Serie A,524,524
+25410,A. Pléa,FW,1,Delantero referencia,412,Ligue 1,412,412
+25411,J. Briand,FW,1,Delantero referencia,412,Ligue 1,412,412
+25413,A. Lacazette,FW,0,Delantero creativo,364,Premier League,364,364
+25445,K. Gameiro,FW,1,Delantero referencia,795,La Liga,795,795
+25472,C. Bakambu,FW,1,Delantero referencia,795,La Liga,795,795
+25512,S. Haller,FW,1,Delantero referencia,426,Bundesliga,426,426
+25517,Y. Sanogo,FW,1,Delantero referencia,412,Ligue 1,412,412
+25571,J. Ayew,FW,2,Delantero trabajador,364,Premier League,364,364
+25572,A. Ayew,FW,1,Delantero referencia,364,Premier League,364,364
+25577,L. Rémy,FW,1,Delantero referencia,795,La Liga,795,795
+25605,E. Sala,FW,1,Delantero referencia,412,Ligue 1,412,412
+25622,T. Hazard,FW,0,Delantero creativo,426,Bundesliga,426,426
+25673,S. Bahoken,FW,1,Delantero referencia,412,Ligue 1,412,412
+25707,E. Hazard,FW,0,Delantero creativo,364,Premier League,364,364
+25715,R. Rodelin,FW,2,Delantero trabajador,412,Ligue 1,412,412
+25716,N. Roux,FW,1,Delantero referencia,412,Ligue 1,412,412
+25745,A. Delort,FW,1,Delantero referencia,412,Ligue 1,412,412
+25747,S. Mané,FW,0,Delantero creativo,364,Premier League,364,364
+25770,F. Thauvin,FW,0,Delantero creativo,412,Ligue 1,412,412
+25795,W. Ben Yedder,FW,1,Delantero referencia,795,La Liga,795,795
+25809,E. Rivière,FW,1,Delantero referencia,412,Ligue 1,412,412
+25860,M. Gradel,FW,2,Delantero trabajador,412,Ligue 1,412,412
+25867,P. Aubameyang,FW,1,Delantero referencia,426,Bundesliga,426,426
+25889,R. Hamouma,FW,0,Delantero creativo,412,Ligue 1,412,412
+25898,M. Niang,FW,2,Delantero trabajador,524,Serie A,524,524
+25923,N. de Préville,FW,2,Delantero trabajador,412,Ligue 1,412,412
+26008,S. Camara,FW,1,Delantero referencia,412,Ligue 1,412,412
+26010,O. Giroud,FW,1,Delantero referencia,364,Premier League,364,364
+26042,K. Monnet-Paquet,FW,2,Delantero trabajador,412,Ligue 1,412,412
+26124,B. Jeannot,FW,1,Delantero referencia,412,Ligue 1,412,412
+26167,C. Beauvue,FW,1,Delantero referencia,795,La Liga,795,795
+26327,I. Saadi,FW,1,Delantero referencia,412,Ligue 1,412,412
+26543,J. Blayac,FW,1,Delantero referencia,412,Ligue 1,412,412
+26610,D. Sakho,FW,1,Delantero referencia,412,Ligue 1,412,412
+26638,K. Toko Ekambi,FW,0,Delantero creativo,412,Ligue 1,412,412
+27354,Júlio Tavares,FW,1,Delantero referencia,412,Ligue 1,412,412
+27955,G. Laborde,FW,1,Delantero referencia,412,Ligue 1,412,412
+28122,Y. Benzia,FW,2,Delantero trabajador,412,Ligue 1,412,412
+28965,O. Nguette,FW,2,Delantero trabajador,412,Ligue 1,412,412
+32636,C. Tosun,FW,1,Delantero referencia,364,Premier League,364,364
+32968,N. Amrabat,FW,2,Delantero trabajador,795,La Liga,795,795
+37831,C. Bacca,FW,1,Delantero referencia,795,La Liga,795,795
+37948,A. Finnbogason,FW,1,Delantero referencia,426,Bundesliga,426,426
+38031,C. Benteke,FW,1,Delantero referencia,364,Premier League,364,364
+38093,M. Batshuayi,FW,1,Delantero referencia,426,Bundesliga,426,426
+38095,S. Gakpé,FW,2,Delantero trabajador,412,Ligue 1,412,412
+38377,L. Depoitre,FW,1,Delantero referencia,364,Premier League,364,364
+40770,Willian José,FW,1,Delantero referencia,795,La Liga,795,795
+40810,Neymar,FW,0,Delantero creativo,412,Ligue 1,412,412
+55968,M. Braithwaite,FW,1,Delantero referencia,412,Ligue 1,412,412
+56274,Y. Poulsen,FW,1,Delantero referencia,426,Bundesliga,426,426
+64995,G. Burgstaller,FW,1,Delantero referencia,426,Bundesliga,426,426
+65180,M. Gregoritsch,FW,2,Delantero trabajador,426,Bundesliga,426,426
+69411,A. Kramarić,FW,0,Delantero creativo,426,Bundesliga,426,426
+69513,A. Budimir,FW,1,Delantero referencia,524,Serie A,524,524
+69616,A. Rebić,FW,2,Delantero trabajador,426,Bundesliga,426,426
+70125,Nolito,FW,2,Delantero trabajador,795,La Liga,795,795
+70129,Rodrigo,FW,0,Delantero creativo,795,La Liga,795,795
+70975,Bruma,FW,0,Delantero creativo,426,Bundesliga,426,426
+72397,Simy,FW,1,Delantero referencia,524,Serie A,524,524
+85438,R. Berič,FW,1,Delantero referencia,412,Ligue 1,412,412
+86243,D. Zapata,FW,1,Delantero referencia,524,Serie A,524,524
+86338,L. Ocampos,FW,2,Delantero trabajador,412,Ligue 1,412,412
+86489,L. Alario,FW,1,Delantero referencia,426,Bundesliga,426,426
+86517,P. De Blasis,FW,2,Delantero trabajador,426,Bundesliga,426,426
+89186,P. Dybala,FW,0,Delantero creativo,524,Serie A,524,524
+90880,S. Mendoza,FW,2,Delantero trabajador,412,Ligue 1,412,412
+91381,J. Izquierdo,FW,2,Delantero trabajador,364,Premier League,364,364
+91519,J. Córdoba,FW,1,Delantero referencia,426,Bundesliga,426,426
+94764,Y. Muto,FW,1,Delantero referencia,426,Bundesliga,426,426
+94831,Y. Ōsako,FW,2,Delantero trabajador,426,Bundesliga,426,426
+97582,M. Konaté,FW,1,Delantero referencia,412,Ligue 1,412,412
+99453,P. Nakoulma,FW,1,Delantero referencia,412,Ligue 1,412,412
+105376,N. Kalinić,FW,1,Delantero referencia,524,Serie A,524,524
+105541,Lucas Pérez,FW,0,Delantero creativo,795,La Liga,795,795
+105619,A. Mehmedi,FW,2,Delantero trabajador,426,Bundesliga,426,426
+105622,A. Yarmolenko,FW,0,Delantero creativo,426,Bundesliga,426,426
+115933,G. Lapadula,FW,1,Delantero referencia,524,Serie A,524,524
+116283,D. Rolán,FW,2,Delantero trabajador,795,La Liga,795,795
+120353,Mohamed Salah,FW,0,Delantero creativo,364,Premier League,364,364
+134249,Rubén Sobrino,FW,1,Delantero referencia,795,La Liga,795,795
+134399,D. Selke,FW,1,Delantero referencia,426,Bundesliga,426,426
+134494,V. Germain,FW,1,Delantero referencia,412,Ligue 1,412,412
+134512,C. Jean,FW,2,Delantero trabajador,412,Ligue 1,412,412
+134513,A. Martial,FW,0,Delantero creativo,364,Premier League,364,364
+134708,D. Origi,FW,1,Delantero referencia,426,Bundesliga,426,426
+135150,A. Cornelius,FW,1,Delantero referencia,524,Serie A,524,524
+135927,André Silva,FW,1,Delantero referencia,524,Serie A,524,524
+142755,B. Traoré,FW,0,Delantero creativo,412,Ligue 1,412,412
+143189,C. Ninga,FW,1,Delantero referencia,412,Ligue 1,412,412
+145692,O. Niasse,FW,1,Delantero referencia,364,Premier League,364,364
+149054,W. Saïd,FW,2,Delantero trabajador,412,Ligue 1,412,412
+206314,M. Icardi,FW,1,Delantero referencia,524,Serie A,524,524
+208696,M. Politano,FW,0,Delantero creativo,524,Serie A,524,524
+209400,D. Berardi,FW,0,Delantero creativo,524,Serie A,524,524
+214654,S. Mounié,FW,1,Delantero referencia,364,Premier League,364,364
+215130,Nuno Da Costa,FW,2,Delantero trabajador,412,Ligue 1,412,412
+217878,L. Diony,FW,1,Delantero referencia,412,Ligue 1,412,412
+219350,A. Niane,FW,1,Delantero referencia,412,Ligue 1,412,412
+224801,I. Bebou,FW,2,Delantero trabajador,426,Bundesliga,426,426
+228765,T. Kleindienst,FW,1,Delantero referencia,426,Bundesliga,426,426
+228902,J. Calleri,FW,1,Delantero referencia,795,La Liga,795,795
+228946,M. Cornet,FW,0,Delantero creativo,412,Ligue 1,412,412
+230883,Ayoze Pérez,FW,2,Delantero trabajador,364,Premier League,364,364
+231139,K. Coman,FW,0,Delantero creativo,426,Bundesliga,426,426
+233910,A. Donis,FW,2,Delantero trabajador,426,Bundesliga,426,426
+234359,P. Schick,FW,1,Delantero referencia,524,Serie A,524,524
+234533,S. Perica,FW,1,Delantero referencia,524,Serie A,524,524
+237034,Gonçalo Guedes,FW,0,Delantero creativo,795,La Liga,795,795
+239843,Z. Bakkali,FW,2,Delantero trabajador,795,La Liga,795,795
+246175,A. Petagna,FW,0,Delantero creativo,524,Serie A,524,524
+247141,Iñaki Williams,FW,0,Delantero creativo,795,La Liga,795,795
+247671,N. Pépé,FW,0,Delantero creativo,412,Ligue 1,412,412
+250134,Luiz Araújo,FW,2,Delantero trabajador,412,Ligue 1,412,412
+250885,Santi Mina,FW,1,Delantero referencia,795,La Liga,795,795
+250956,F. Ricci,FW,2,Delantero trabajador,524,Serie A,524,524
+252589,B. Petković,FW,2,Delantero trabajador,524,Serie A,524,524
+254189,Ivi,FW,2,Delantero trabajador,795,La Liga,795,795
+254408,Á. Correa,FW,2,Delantero trabajador,795,La Liga,795,795
+255670,C. Lombardi,FW,2,Delantero trabajador,524,Serie A,524,524
+256480,B. Keita,FW,1,Delantero referencia,412,Ligue 1,412,412
+258264,L. Jović,FW,1,Delantero referencia,426,Bundesliga,426,426
+259292,F. Di Francesco,FW,2,Delantero trabajador,524,Serie A,524,524
+264989,F. Mubele,FW,0,Delantero creativo,412,Ligue 1,412,412
+269152,G. Simeone,FW,1,Delantero referencia,524,Serie A,524,524
+272878,A. Nalini,FW,2,Delantero trabajador,524,Serie A,524,524
+274435,E. Ünal,FW,1,Delantero referencia,795,La Liga,795,795
+275032,E. Crivelli,FW,1,Delantero referencia,412,Ligue 1,412,412
+276211,A. Saint-Maximin,FW,0,Delantero creativo,412,Ligue 1,412,412
+276944,J. Bamba,FW,0,Delantero creativo,412,Ligue 1,412,412
+276983,I. Mbenza,FW,0,Delantero creativo,412,Ligue 1,412,412
+278278,Munir,FW,1,Delantero referencia,795,La Liga,795,795
+279780,J. Augustin,FW,0,Delantero creativo,426,Bundesliga,426,426
+282772,B. Embolo,FW,1,Delantero referencia,426,Bundesliga,426,426
+284322,E. Ponce,FW,1,Delantero referencia,412,Ligue 1,412,412
+286390,O. Dembélé,FW,0,Delantero creativo,795,La Liga,795,795
+286553,A. El Ghazi,FW,0,Delantero creativo,412,Ligue 1,412,412
+293687,D. Calvert-Lewin,FW,1,Delantero referencia,364,Premier League,364,364
+293862,Nacho Gil,FW,2,Delantero trabajador,795,La Liga,795,795
+295761,S. Grandsir,FW,2,Delantero trabajador,412,Ligue 1,412,412
+300485,Malcom,FW,0,Delantero creativo,412,Ligue 1,412,412
+301017,M. Thuram,FW,1,Delantero referencia,412,Ligue 1,412,412
+328131,C. Akolo,FW,1,Delantero referencia,426,Bundesliga,426,426
+328336,M. Fares,FW,2,Delantero trabajador,524,Serie A,524,524
+333913,K. Lasagna,FW,1,Delantero referencia,524,Serie A,524,524
+334552,F. Kamano,FW,0,Delantero creativo,412,Ligue 1,412,412
+338201,E. Boateng,FW,1,Delantero referencia,795,La Liga,795,795
+338249,Gil Dias,FW,2,Delantero trabajador,524,Serie A,524,524
+339791,Álex Berenguer,FW,2,Delantero trabajador,524,Serie A,524,524
+340386,Gabriel Jesus,FW,1,Delantero referencia,364,Premier League,364,364
+343925,D. Verde,FW,2,Delantero trabajador,524,Serie A,524,524
+343951,T. Abraham,FW,1,Delantero referencia,364,Premier League,364,364
+344140,A. Ndiaye,FW,2,Delantero trabajador,795,La Liga,795,795
+344744,J. Ikoné,FW,0,Delantero creativo,412,Ligue 1,412,412
+350032,C. Ünder,FW,0,Delantero creativo,524,Serie A,524,524
+351010,P. Cutrone,FW,1,Delantero referencia,524,Serie A,524,524
+353833,K. Mbappé,FW,0,Delantero creativo,412,Ligue 1,412,412
+364820,Loren Morón,FW,1,Delantero referencia,795,La Liga,795,795
+366546,L. Mothiba,FW,1,Delantero referencia,412,Ligue 1,412,412
+372753,Francis Guerrero,FW,2,Delantero trabajador,795,La Liga,795,795
+377071,Richarlison,FW,2,Delantero trabajador,364,Premier League,364,364
+385273,Charles,FW,1,Delantero referencia,795,La Liga,795,795
+388267,L. Bailey,FW,0,Delantero creativo,426,Bundesliga,426,426
+394006,M. Terrier,FW,2,Delantero trabajador,412,Ligue 1,412,412
+395636,Maxi Gómez,FW,1,Delantero referencia,795,La Liga,795,795
+397178,M. Rashford,FW,0,Delantero creativo,364,Premier League,364,364
+410031,M. Kean,FW,1,Delantero referencia,524,Serie A,524,524
+412701,I. Sacko,FW,2,Delantero trabajador,412,Ligue 1,412,412
+424624,O. Etebo,FW,2,Delantero trabajador,795,La Liga,795,795
+447821,Y. En-Nesyri,FW,1,Delantero referencia,795,La Liga,795,795
+454457,E. Brignola,FW,2,Delantero trabajador,524,Serie A,524,524

@@ -1,0 +1,31 @@
+# Dependencias del proyecto — Python 3.11
+# Versiones fijadas según el entorno de desarrollo (conda env 'tfg').
+
+# Núcleo de datos
+pandas==2.1.4
+numpy==1.26.4
+scipy==1.11.4
+pyarrow
+
+# Machine learning
+scikit-learn
+xgboost==2.1.1
+shap==0.51.0
+
+# Base de datos
+SQLAlchemy
+psycopg2-binary
+
+# Matching de fuentes
+RapidFuzz
+Unidecode
+
+# Visualización
+matplotlib
+mplsoccer
+
+# Datos abiertos (descarga del dataset de Transfermarkt)
+kagglehub
+
+# Persistencia de artefactos
+joblib

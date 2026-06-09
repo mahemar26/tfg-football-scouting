@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────────────────────
+# Credenciales y configuración local — NUNCA deben subir
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────────────────────
+# Entornos y caché de Python
+# ─────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────────────────────
+# Datos crudos no redistribuibles (Wyscout, Transfermarkt, FBref)
+# Se descargan de la fuente oficial — ver README
+# ─────────────────────────────────────────────────────────────
+data/raw/
+data/external/
+
+# Solo se versiona el dataset abierto publicado por este proyecto.
+# Se ignora todo data/processed/ salvo excepciones explícitas:
+data/processed/*
+!data/processed/scouting_dataset.csv
+
+# ─────────────────────────────────────────────────────────────
+# Material de trabajo interno (anteproyecto, memoria, normas UV)
+# ─────────────────────────────────────────────────────────────
+docs/
+
+# ─────────────────────────────────────────────────────────────
+# Notebooks de versiones anteriores (conservados en local,
+# fuera del repo para no duplicar con los numerados 01-06)
+# ─────────────────────────────────────────────────────────────
+notebooks/golden_layer.ipynb
+notebooks/xGModel.ipynb
+
+# ─────────────────────────────────────────────────────────────
+# Sistema operativo y editores
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# ─────────────────────────────────────────────────────────────
+# Carpeta legacy (código del enfoque FBref/Opta abandonado)
+# ─────────────────────────────────────────────────────────────
+legacy/
