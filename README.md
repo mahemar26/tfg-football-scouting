@@ -19,7 +19,7 @@ El sistema se construye sobre una arquitectura Medallion en PostgreSQL (Bronze �
 
 ## Estructura del repositorio
 
-- `src/` — código fuente reutilizable. `etl/` para la carga de los datos crudos (`load_wyscout.py`) y `models/` con la lógica del motor de similitud (`similarity.py`) y el modelo de xG persistido.
+- `src/` — código fuente reutilizable. `etl/` para la carga de los datos crudos (`load_wyscout.py`) y `models/` con la lógica del motor de similitud (`similarity.py`) y el modelo de xG persistido (`.joblib`).
 - `sql/` — esquemas de las capas de la base de datos: `schema_bronze.sql`, `schema_silver.sql` y `schema_gold.sql`.
 - `notebooks/` — el pipeline analítico, ejecutable en orden. Cada notebook se publica ya ejecutado y acompañado de una exportación `.html` autocontenida que reproduce su salida (código, tablas y figuras) sin necesidad de un entorno:
   - `01_data_validation` — validación de los datos crudos.
@@ -29,7 +29,7 @@ El sistema se construye sobre una arquitectura Medallion en PostgreSQL (Bronze �
   - `Transfermarkt_market_value` — emparejamiento de jugadores con sus valores de mercado.
   - `05_player_style_clustering` — clustering de estilos y motor de similitud.
   - `06_value_prediction` — predicción de revalorización e integración de scouting.
-- `models/` — artefactos entrenados (motor de similitud y modelo de xG).
+- `models/clustering/` — artefactos entrenados del motor de similitud por estilo (clustering).
 - `data/processed/` — el dataset abierto publicado por este proyecto (`scouting_dataset.csv`).
 - `requirements.txt` — dependencias del proyecto.
 - `.env.example` — plantilla de configuración de la conexión a PostgreSQL.
