@@ -39,6 +39,7 @@ docs/
 # ─────────────────────────────────────────────────────────────
 notebooks/golden_layer.ipynb
 notebooks/xGModel.ipynb
+figs/
 
 # ─────────────────────────────────────────────────────────────
 # Sistema operativo y editores
