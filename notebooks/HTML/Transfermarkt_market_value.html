@@ -7840,10 +7840,9 @@ a.anchor-link {
 <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">UserWarning</span><span class="p">)</span>
 
 <span class="n">PROJECT_ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="o">.</span><span class="n">cwd</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">load_dotenv</span><span class="p">(</span><span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">".env"</span><span class="p">)</span>
+<span class="n">load_dotenv</span><span class="p">()</span>
 <span class="n">engine</span> <span class="o">=</span> <span class="n">create_engine</span><span class="p">(</span>
-    <span class="sa">f</span><span class="s2">"postgresql+psycopg2://</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_USER'</span><span class="p">)</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_PASSWORD'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
-    <span class="sa">f</span><span class="s2">"@</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_HOST'</span><span class="p">,</span><span class="s1">'localhost'</span><span class="p">)</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_PORT'</span><span class="p">,</span><span class="s1">'5432'</span><span class="p">)</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_DB'</span><span class="p">,</span><span class="s1">'football_scouting'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"postgresql+psycopg2://</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_USER'</span><span class="p">)</span><span class="si">}</span><span class="s2">@</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_HOST'</span><span class="p">)</span><span class="si">}</span><span class="s2">:</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_PORT'</span><span class="p">)</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">'PG_DB'</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
 <span class="p">)</span>
 
 <span class="n">TM_DIR</span> <span class="o">=</span> <span class="n">PROJECT_ROOT</span> <span class="o">/</span> <span class="s2">"data"</span> <span class="o">/</span> <span class="s2">"raw"</span> <span class="o">/</span> <span class="s2">"transfermarkt"</span>
@@ -8137,7 +8136,7 @@ charly junior musonda charly musonda jr    90.322581
 <div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># nb04b §3 — Inspección de los jugadores sin emparejar</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Inspección de los jugadores sin emparejar</span>
 <span class="n">sin_match</span> <span class="o">=</span> <span class="n">wy</span><span class="p">[</span><span class="o">~</span><span class="n">wy</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">matches</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]))]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
 <span class="c1"># ¿Su fecha de nacimiento existe en TM? Si sí, el fallo es de nombre (recuperable); si no, ausencia real</span>
@@ -8234,10 +8233,10 @@ max       83.3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># nb04b §3 — Tercera pasada: recuperación de diminutivos con métrica tolerante a tokens omitidos</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Tercera pasada: recuperación de diminutivos con métrica tolerante a tokens omitidos</span>
 <span class="n">RECUP_THRESHOLD</span> <span class="o">=</span> <span class="mi">88</span>
 
 <span class="c1"># Reconstruye los grupos por fecha usando una columna 'tm_id' coherente</span>
@@ -8315,24 +8314,135 @@ francisco javier garcia fernandez            javi garcia   100.000000
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=214737ef-7248-433b-b57f-406cc2f994fa">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Cuarta pasada: umbral relajado con auditoría previa (bloqueo por fecha intacto)</span>
+<span class="n">RECUP4_THRESHOLD</span> <span class="o">=</span> <span class="mi">80</span>
+
+<span class="c1"># Quiénes siguen sin emparejar tras las tres pasadas anteriores</span>
+<span class="n">ya_emparejados</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">matches</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">])</span> <span class="o">|</span> <span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">n3</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">])</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">n3</span><span class="p">)</span> <span class="k">else</span> <span class="nb">set</span><span class="p">())</span>
+<span class="n">pendientes4</span> <span class="o">=</span> <span class="n">wy</span><span class="p">[</span><span class="o">~</span><span class="n">wy</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">ya_emparejados</span><span class="p">)]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">pendientes4</span> <span class="o">=</span> <span class="n">pendientes4</span><span class="p">[</span><span class="n">pendientes4</span><span class="p">[</span><span class="s1">'dob'</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">dob_tm</span><span class="p">)]</span>   <span class="c1"># solo recuperables (fecha en TM)</span>
+
+<span class="n">filas_n4</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">pendientes4</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+    <span class="n">cand</span> <span class="o">=</span> <span class="n">tm_por_dob</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">r</span><span class="p">[</span><span class="s1">'dob'</span><span class="p">])</span>          <span class="c1"># tm_por_dob ya está construido en la 3ª pasada (tm_id, name_norm, dob)</span>
+    <span class="k">if</span> <span class="n">cand</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">cand</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">best</span> <span class="o">=</span> <span class="n">process</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span>
+        <span class="n">r</span><span class="p">[</span><span class="s1">'name_norm'</span><span class="p">],</span> <span class="n">cand</span><span class="p">[</span><span class="s1">'name_norm'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span>
+        <span class="n">scorer</span><span class="o">=</span><span class="n">fuzz</span><span class="o">.</span><span class="n">partial_token_sort_ratio</span><span class="p">,</span> <span class="n">score_cutoff</span><span class="o">=</span><span class="n">RECUP4_THRESHOLD</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">best</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">nombre_tm</span><span class="p">,</span> <span class="n">score</span><span class="p">,</span> <span class="n">idx_local</span> <span class="o">=</span> <span class="n">best</span>
+        <span class="n">filas_n4</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+            <span class="s1">'player_id'</span><span class="p">:</span> <span class="n">r</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">],</span> <span class="s1">'tm_id'</span><span class="p">:</span> <span class="n">cand</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx_local</span><span class="p">][</span><span class="s1">'tm_id'</span><span class="p">],</span>
+            <span class="s1">'match_level'</span><span class="p">:</span> <span class="s1">'difuso_recup2'</span><span class="p">,</span> <span class="s1">'match_score'</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">score</span><span class="p">),</span>
+            <span class="s1">'short_name'</span><span class="p">:</span> <span class="n">r</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">],</span> <span class="s1">'wy_name'</span><span class="p">:</span> <span class="n">r</span><span class="p">[</span><span class="s1">'name_norm'</span><span class="p">],</span> <span class="s1">'tm_name'</span><span class="p">:</span> <span class="n">nombre_tm</span><span class="p">,</span>
+        <span class="p">})</span>
+
+<span class="n">n4</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">filas_n4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"CANDIDATOS CUARTA PASADA (umbral </span><span class="si">{</span><span class="n">RECUP4_THRESHOLD</span><span class="si">}</span><span class="s2">): </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">n4</span><span class="p">)</span><span class="si">}</span><span class="s2"> de </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">pendientes4</span><span class="p">)</span><span class="si">}</span><span class="s2"> recuperables pendientes</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">n4</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"AUDITORÍA — ordenados por score ASCENDENTE (los de arriba son los dudosos, revísalos uno a uno):"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">n4</span><span class="p">[[</span><span class="s1">'short_name'</span><span class="p">,</span> <span class="s1">'wy_name'</span><span class="p">,</span> <span class="s1">'tm_name'</span><span class="p">,</span> <span class="s1">'match_score'</span><span class="p">]]</span>
+          <span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'match_score'</span><span class="p">)</span><span class="o">.</span><span class="n">to_string</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>CANDIDATOS CUARTA PASADA (umbral 80): 36 de 179 recuperables pendientes
+
+AUDITORÍA — ordenados por score ASCENDENTE (los de arriba son los dudosos, revísalos uno a uno):
+      short_name                           wy_name          tm_name  match_score
+    Paco Alcácer          francisco alcacer garcia     paco alcacer    80.000000
+       D. Torres     daniel alejandro torres rojas      dani torres    80.000000
+    D. Upamecano          dayotchanculle upamecano  dayot upamecano    80.000000
+             Ivi                ivan lopez alvarez        ivi lopez    80.000000
+    Dani Pacheco             daniel pacheco lobato     dani pacheco    80.000000
+         Etxeita       xabier etxeita gorritxategi     xabi etxeita    80.000000
+      Javi López            javier lopez rodriguez       javi lopez    80.000000
+      Pepe Reina            jose manuel reina paez       pepe reina    80.000000
+    W. Caballero         wilfredo daniel caballero  willy caballero    80.000000
+           Nacho   jose ignacio fernandez iglesias  nacho fernandez    80.000000
+           Chema      jose manuel rodriguez benito  chema rodriguez    81.481481
+     Dani Molina                daniel molina orta      dani molina    81.818182
+     Loren Morón        lorenzo jesus moron garcia      loren moron    81.818182
+     Dani García            daniel garcia carrillo      dani garcia    81.818182
+    Kiko Casilla          francisco casilla cortes     kiko casilla    81.818182
+        I. Brown                      isaiah brown       izzy brown    82.352941
+          Joselu          jose luis sanmartin mato           joselu    83.333333
+         Fabinho            fabio henrique tavares          fabinho    83.333333
+    Edu Expósito             eduardo exposito jaen     edu exposito    83.333333
+    Choco Lozano        anthony ruben lozano colon     choco lozano    83.333333
+       Trigueros            manuel trigueros munoz   manu trigueros    83.333333
+    Dani Giménez          daniel gimenez hernandez     dani gimenez    83.333333
+          Juanpi            juan pablo anor acosta           juanpi    83.333333
+     Alex Robles           alejandro robles garcia      alex robles    84.210526
+     Fernandinho                fernando luiz rosa      fernandinho    84.210526
+   P. Djilobodji           papiss mison djilobodji  papy djilobodji    84.615385
+   Javi Martínez           javier martinez aginaga    javi martinez    84.615385
+        Juanfran     juan francisco moreno fuertes  juanfran moreno    84.615385
+    Y. N'Gbakoto              yeni atito n gbakoto    yeni ngbakoto    84.615385
+        Juanfran       juan francisco torres belen  juanfran torres    84.615385
+            Jony       jonathan rodriguez menendez             jony    85.714286
+      J. Narváez         juan jose narvaez solarte   juanjo narvaez    85.714286
+  Javi Ontiveros            javier ontiveros parra   javi ontiveros    85.714286
+      M. Ndockyt merveille valthy streeker ndockyt  merveil ndockyt    86.666667
+        Casemiro          carlos henrique casimiro         casemiro    87.500000
+Francis Guerrero  francisco javier guerrero martin francis guerrero    87.500000
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=9d266f06-41c3-42a7-b600-de8e93410ddc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Aceptación de la cuarta pasada (auditada: 36/36 correctas, sin falsos positivos)</span>
+<span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'player_id'</span><span class="p">,</span> <span class="s1">'tm_id'</span><span class="p">,</span> <span class="s1">'match_level'</span><span class="p">,</span> <span class="s1">'match_score'</span><span class="p">]</span>
+<span class="n">n4_cons</span> <span class="o">=</span> <span class="n">n4</span><span class="p">[</span><span class="n">cols</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">n4</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">cols</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=109c7394-22a0-49df-9e5e-ff07c8de43df">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># nb04b §3 — Consolidación de los tres niveles de emparejamiento</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Consolidación de los tres niveles de emparejamiento</span>
 <span class="n">cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'player_id'</span><span class="p">,</span> <span class="s1">'tm_id'</span><span class="p">,</span> <span class="s1">'match_level'</span><span class="p">,</span> <span class="s1">'match_score'</span><span class="p">]</span>
 <span class="n">n3_cons</span> <span class="o">=</span> <span class="n">n3</span><span class="p">[</span><span class="n">cols</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">n3</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">cols</span><span class="p">)</span>
 
-<span class="n">matches_final</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">matches</span><span class="p">[</span><span class="n">cols</span><span class="p">],</span> <span class="n">n3_cons</span><span class="p">],</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">matches_final</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">matches</span><span class="p">[</span><span class="n">cols</span><span class="p">],</span> <span class="n">n3_cons</span><span class="p">,</span> <span class="n">n4_cons</span><span class="p">],</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
                  <span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="s1">'player_id'</span><span class="p">,</span> <span class="n">keep</span><span class="o">=</span><span class="s1">'first'</span><span class="p">))</span>
 
 <span class="n">n_total</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">wy</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"COBERTURA FINAL DEL EMPAREJAMIENTO"</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">lvl</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">'exacto'</span><span class="p">,</span> <span class="s1">'difuso'</span><span class="p">,</span> <span class="s1">'difuso_recup'</span><span class="p">]:</span>
+<span class="k">for</span> <span class="n">lvl</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">'exacto'</span><span class="p">,</span> <span class="s1">'difuso'</span><span class="p">,</span> <span class="s1">'difuso_recup'</span><span class="p">,</span> <span class="s1">'difuso_recup2'</span><span class="p">]:</span>    
     <span class="n">n</span> <span class="o">=</span> <span class="p">(</span><span class="n">matches_final</span><span class="p">[</span><span class="s1">'match_level'</span><span class="p">]</span> <span class="o">==</span> <span class="n">lvl</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  </span><span class="si">{</span><span class="n">lvl</span><span class="si">:</span><span class="s2">&lt;14</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">n</span><span class="si">:</span><span class="s2">&gt;5</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="mi">100</span><span class="o">*</span><span class="n">n</span><span class="o">/</span><span class="n">n_total</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">%)"</span><span class="p">)</span>
 <span class="n">n_match</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">matches_final</span><span class="p">)</span>
@@ -8354,8 +8464,9 @@ francisco javier garcia fernandez            javi garcia   100.000000
   exacto        :  1584  (61.9%)
   difuso        :   766  (29.9%)
   difuso_recup  :    27  (1.1%)
-  TOTAL         :  2377  (92.8%)
-  sin valor     :   184  (7.2%)
+  difuso_recup2 :    36  (1.4%)
+  TOTAL         :  2413  (94.2%)
+  sin valor     :   148  (5.8%)
 </pre>
 </div>
 </div>
@@ -8368,7 +8479,7 @@ francisco javier garcia fernandez            javi garcia   100.000000
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Cobertura-final">Cobertura final<a class="anchor-link" href="#Cobertura-final">¶</a></h3><p>El emparejamiento por tres niveles —exacto, difuso por similitud de tokens y recuperación de nombres usuales— enlaza 2.377 de los 2.561 jugadores del universo, una cobertura del 92,8%. Los 184 jugadores sin contraparte se reparten entre cinco ausencias reales en la fuente y un resto cuyos nombres divergen lo suficiente como para que ningún umbral los enlace con garantías. La inspección manual de las coincidencias difusas, ordenadas por puntuación ascendente, no reveló ningún falso positivo: el bloqueo sistemático por fecha de nacimiento hace estadísticamente improbable que dos jugadores distintos coincidan a la vez en fecha y en nombre similar. Se ha priorizado, por tanto, la fiabilidad del enlace sobre la cobertura máxima, decisión coherente con el carácter de descriptor de filtrado del valor de mercado: un enlace erróneo introduciría un precio falso en las recomendaciones, mientras que un jugador sin enlace simplemente no se filtra por coste y permanece disponible para el resto del sistema.</p>
+<h3 id="Cobertura-final">Cobertura final<a class="anchor-link" href="#Cobertura-final">¶</a></h3><p>El emparejamiento por cuatro niveles —exacto, difuso por similitud de tokens y recuperación de nombres usuales— enlaza 2.413 de los 2.561 jugadores del universo, una cobertura del 94,2%. Los 184 jugadores sin contraparte se reparten entre cinco ausencias reales en la fuente y un resto cuyos nombres divergen lo suficiente como para que ningún umbral los enlace con garantías. La inspección manual de las coincidencias difusas, ordenadas por puntuación ascendente, no reveló ningún falso positivo: el bloqueo sistemático por fecha de nacimiento hace estadísticamente improbable que dos jugadores distintos coincidan a la vez en fecha y en nombre similar. Se ha priorizado, por tanto, la fiabilidad del enlace sobre la cobertura máxima, decisión coherente con el carácter de descriptor de filtrado del valor de mercado: un enlace erróneo introduciría un precio falso en las recomendaciones, mientras que un jugador sin enlace simplemente no se filtra por coste y permanece disponible para el resto del sistema.</p>
 </div>
 </div>
 </div>
@@ -8389,7 +8500,7 @@ francisco javier garcia fernandez            javi garcia   100.000000
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Selección de la valoración contemporánea a la temporada 2017/18</span>
@@ -8437,17 +8548,17 @@ francisco javier garcia fernandez            javi garcia   100.000000
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>ALINEACIÓN TEMPORAL (corte 2018-06-30)
-  Emparejados              : 2377
-  · con valoración ≤ corte : 2334  (98.2%)
-  · sin valoración en ventana: 43
+  Emparejados              : 2413
+  · con valoración ≤ corte : 2369  (98.2%)
+  · sin valoración en ventana: 44
 
 Rango de fechas de valoración usadas:
   desde 2012-08-13 hasta 2018-06-30
 
 DISTRIBUCIÓN DEL VALOR DE MERCADO (M€):
-count    2334.00
+count    2369.00
 mean        8.56
-std        14.63
+std        14.60
 min         0.05
 25%         1.25
 50%         3.50
@@ -8467,7 +8578,7 @@ max       180.00
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="5.-Tabla-final-y-persistencia">5. Tabla final y persistencia<a class="anchor-link" href="#5.-Tabla-final-y-persistencia">¶</a></h2><p>El resultado del enriquecimiento se consolida en una tabla de la capa Gold, <code>gold.player_market_values</code>, indexada por el identificador de jugador de Wyscout —el mismo <code>player_id</code> que emplea el resto del proyecto—, de modo que el notebook de clustering pueda incorporarla mediante una unión directa. Cada registro conserva, además del valor de mercado en euros, la fecha de la valoración utilizada, el identificador de Transfermarkt y el nivel de emparejamiento que originó el enlace, lo que mantiene la trazabilidad completa del proceso y permite auditar a posteriori el origen de cualquier valor.</p>
-<p>La tabla cubre los 2.334 jugadores con valoración contemporánea a la temporada; el resto del universo permanece sin valor de mercado, en coherencia con el criterio de no imputar. Con esta tabla disponible, las funciones de scouting del notebook 05 podrán filtrar las recomendaciones de estilo por coste, completando la lógica de detección de oportunidades de mercado.</p>
+<p>La tabla cubre los 2.369 jugadores con valoración contemporánea a la temporada; el resto del universo permanece sin valor de mercado, en coherencia con el criterio de no imputar. Con esta tabla disponible, las funciones de scouting del notebook 05 podrán filtrar las recomendaciones de estilo por coste, completando la lógica de detección de oportunidades de mercado.</p>
 </div>
 </div>
 </div>
@@ -8476,7 +8587,7 @@ max       180.00
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Tabla gold.player_market_values: materialización y persistencia</span>
@@ -8520,15 +8631,83 @@ max       180.00
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>TABLA gold.player_market_values ESCRITA
    n  min_eur   max_eur  max_fecha
-2334    50000 180000000 2018-06-30
+2369    50000 180000000 2018-06-30
 
 Parquet: data/processed/player_market_values.parquet
 
 Reparto por nivel de emparejamiento:
 match_level
-exacto          1555
-difuso           752
-difuso_recup      27
+exacto           1555
+difuso            752
+difuso_recup2      35
+difuso_recup       27
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=35df96fe-022d-4464-984b-1d6e09756dd7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ¿De qué fechas son los primeros precios de los 41 que se quedaron fuera por el corte?</span>
+<span class="n">ids_sin_valor_ventana</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">matches_final</span><span class="p">[</span><span class="s1">'tm_id'</span><span class="p">])</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">tm_vals_w</span><span class="p">[</span><span class="n">tm_vals_w</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">FECHA_CORTE</span><span class="p">][</span><span class="s1">'player_id'</span><span class="p">])</span>
+<span class="n">primeros_post</span> <span class="o">=</span> <span class="p">(</span><span class="n">tm_vals_w</span><span class="p">[</span><span class="n">tm_vals_w</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">ids_sin_valor_ventana</span><span class="p">)]</span>
+                 <span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'date'</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'player_id'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">())</span>
+<span class="n">primeros_post</span><span class="p">[</span><span class="s1">'meses_tras_corte'</span><span class="p">]</span> <span class="o">=</span> <span class="p">((</span><span class="n">primeros_post</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">-</span> <span class="n">FECHA_CORTE</span><span class="p">)</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">days</span> <span class="o">/</span> <span class="mf">30.44</span><span class="p">)</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Primeros precios de los </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">primeros_post</span><span class="p">)</span><span class="si">}</span><span class="s2"> sin valor en ventana:</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">primeros_post</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">to_period</span><span class="p">(</span><span class="s1">'M'</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">sort_index</span><span class="p">()</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Meses tras el corte (distribución):"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">primeros_post</span><span class="p">[</span><span class="s1">'meses_tras_corte'</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">percentiles</span><span class="o">=</span><span class="p">[</span><span class="mf">.25</span><span class="p">,</span><span class="mf">.5</span><span class="p">,</span><span class="mf">.75</span><span class="p">])</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Primeros precios de los 41 sin valor en ventana:
+
+date
+2018-07    4
+2018-09    3
+2018-10    2
+2018-11    1
+2018-12    1
+2019-03    1
+2019-04    2
+2019-05    3
+2019-06    5
+2019-07    2
+2019-08    1
+2019-09    2
+2019-10    4
+2019-11    2
+2019-12    1
+2020-01    1
+2020-08    4
+2020-11    1
+2022-07    1
+Freq: M
+
+Meses tras el corte (distribución):
+count    41.0
+mean     12.6
+std       9.5
+min       0.2
+25%       5.7
+50%      11.9
+75%      15.4
+max      48.9
 </pre>
 </div>
 </div>

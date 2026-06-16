@@ -7844,6 +7844,8 @@ a.anchor-link {
 <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">UserWarning</span><span class="p">)</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s2">"whitegrid"</span><span class="p">)</span>
 
+<span class="n">FIGS</span> <span class="o">=</span> <span class="s2">"figs"</span><span class="p">;</span> <span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="p">;</span> <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">FIGS</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
 <span class="n">RANDOM_STATE</span> <span class="o">=</span> <span class="mi">42</span>
 
 <span class="n">PROJECT_ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="o">.</span><span class="n">cwd</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -8564,7 +8566,6 @@ xg_per90                       0.227
     <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
     <span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s2">"x"</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
     <span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s2">"y"</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="mi">9</span><span class="p">)</span>
-
     <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
@@ -10055,12 +10056,30 @@ Delantero trabajador          18       20       23              15       24
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=45c09ebb-f57f-41b4-9ebc-c068997310b0">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=73e0d62d-24a0-4d00-9bcb-09faf34ff1f6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Motor de similitud: funciones del módulo src/models/similarity.py</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">PROJECT_ROOT</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">PROJECT_ROOT</span><span class="p">))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">src.models.similarity</span><span class="w"> </span><span class="kn">import</span> <span class="n">bloque_de</span><span class="p">,</span> <span class="n">jugadores_similares</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=45c09ebb-f57f-41b4-9ebc-c068997310b0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Índice de similitud por bloque y verificación coseno vs euclídea</span>
@@ -10075,12 +10094,9 @@ Delantero trabajador          18       20       23              15       24
     <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'X'</span><span class="p">:</span> <span class="n">X_pca</span><span class="p">[</span><span class="n">b</span><span class="p">],</span> <span class="s1">'meta'</span><span class="p">:</span> <span class="n">meta</span><span class="p">,</span>
                     <span class="s1">'pos'</span><span class="p">:</span> <span class="p">{</span><span class="n">n</span><span class="p">:</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">meta</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">])}}</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">_bloque_de</span><span class="p">(</span><span class="n">nombre</span><span class="p">):</span>
-    <span class="n">hit</span> <span class="o">=</span> <span class="n">clusters_df</span><span class="p">[</span><span class="n">clusters_df</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">]</span> <span class="o">==</span> <span class="n">nombre</span><span class="p">]</span>
-    <span class="k">return</span> <span class="n">hit</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">'position_group'</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">hit</span><span class="p">)</span> <span class="k">else</span> <span class="kc">None</span>
 
 <span class="k">def</span><span class="w"> </span><span class="nf">comparar_metricas</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">8</span><span class="p">):</span>
-    <span class="n">b</span> <span class="o">=</span> <span class="n">_bloque_de</span><span class="p">(</span><span class="n">nombre</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">bloque_de</span><span class="p">(</span><span class="n">sim_index</span><span class="p">,</span> <span class="n">nombre</span><span class="p">)</span>
     <span class="n">X</span><span class="p">,</span> <span class="n">meta</span> <span class="o">=</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'X'</span><span class="p">],</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'meta'</span><span class="p">]</span>
     <span class="n">i</span> <span class="o">=</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'pos'</span><span class="p">][</span><span class="n">nombre</span><span class="p">]</span>
     <span class="n">cos</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span> <span class="n">X</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
@@ -10203,7 +10219,7 @@ M. Phillips M. Phillips
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">coherencia_arquetipo</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">ks</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">)):</span>
@@ -10279,7 +10295,7 @@ FW     90.300 86.700 86.800 85.800 38.100
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Incorporación del valor de mercado</span>
@@ -10305,8 +10321,8 @@ FW     90.300 86.700 86.800 85.800 38.100
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Valores de mercado cargados: 2334 jugadores
-Cobertura sobre el universo de clustering: 92.6%
+<pre>Valores de mercado cargados: 2369 jugadores
+Cobertura sobre el universo de clustering: 93.8%
 </pre>
 </div>
 </div>
@@ -10317,43 +10333,161 @@ Cobertura sobre el universo de clustering: 92.6%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Función de consulta de jugadores similares</span>
-<span class="n">DESC_COLS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'age_at_season'</span><span class="p">,</span> <span class="s1">'goals_per90'</span><span class="p">,</span> <span class="s1">'goals_minus_xg'</span><span class="p">]</span>
-
-<span class="k">def</span><span class="w"> </span><span class="nf">jugadores_similares</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
-    <span class="n">b</span> <span class="o">=</span> <span class="n">_bloque_de</span><span class="p">(</span><span class="n">nombre</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">b</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">cand</span> <span class="o">=</span> <span class="n">clusters_df</span><span class="p">[</span><span class="n">clusters_df</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">case</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">na</span><span class="o">=</span><span class="kc">False</span><span class="p">)]</span>
-        <span class="n">msg</span> <span class="o">=</span> <span class="s2">"sin coincidencias"</span> <span class="k">if</span> <span class="n">cand</span><span class="o">.</span><span class="n">empty</span> <span class="k">else</span> <span class="s2">"¿quizás? "</span> <span class="o">+</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cand</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"'</span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s2">' no encontrado. </span><span class="si">{</span><span class="n">msg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-        <span class="k">return</span> <span class="kc">None</span>
-
-    <span class="n">X</span><span class="p">,</span> <span class="n">meta</span> <span class="o">=</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'X'</span><span class="p">],</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'meta'</span><span class="p">]</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'pos'</span><span class="p">][</span><span class="n">nombre</span><span class="p">]</span>
-    <span class="n">cos</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span> <span class="n">X</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-
-    <span class="n">res</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">res</span><span class="p">[</span><span class="s1">'afinidad'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">cos</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="n">res</span><span class="o">.</span><span class="n">index</span> <span class="o">!=</span> <span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'afinidad'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">top_n</span><span class="p">)</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df</span><span class="p">[[</span><span class="s1">'player_id'</span><span class="p">]</span> <span class="o">+</span> <span class="n">DESC_COLS</span><span class="p">],</span> <span class="n">on</span><span class="o">=</span><span class="s1">'player_id'</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">'left'</span><span class="p">)</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">market_values</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">'player_id'</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">'left'</span><span class="p">)</span>
-
-    <span class="n">obj</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]</span> <span class="o">==</span> <span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'player_id'</span><span class="p">]]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="n">obj_mv</span> <span class="o">=</span> <span class="n">market_values</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">market_values</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]</span> <span class="o">==</span> <span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'player_id'</span><span class="p">],</span> <span class="s1">'market_value_eur'</span><span class="p">]</span>
-    <span class="n">obj_mv</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">obj_mv</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="mf">1e6</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">M€"</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">obj_mv</span><span class="p">)</span> <span class="k">else</span> <span class="s2">"s/d"</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🎯 </span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'archetype'</span><span class="p">]</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'liga'</span><span class="p">]</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">obj_mv</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   </span><span class="si">{</span><span class="n">obj</span><span class="p">[</span><span class="s1">'age_at_season'</span><span class="p">]</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2"> años · </span><span class="si">{</span><span class="n">obj</span><span class="p">[</span><span class="s1">'goals_per90'</span><span class="p">]</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> g/90 · G−xG </span><span class="si">{</span><span class="n">obj</span><span class="p">[</span><span class="s1">'goals_minus_xg'</span><span class="p">]</span><span class="si">:</span><span class="s2">+.2f</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-
-    <span class="n">out</span> <span class="o">=</span> <span class="n">res</span><span class="p">[[</span><span class="s1">'short_name'</span><span class="p">,</span> <span class="s1">'afinidad'</span><span class="p">,</span> <span class="s1">'archetype'</span><span class="p">,</span> <span class="s1">'liga'</span><span class="p">]</span> <span class="o">+</span> <span class="n">DESC_COLS</span> <span class="o">+</span> <span class="p">[</span><span class="s1">'market_value_eur'</span><span class="p">]]</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
-        <span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'short_name'</span><span class="p">:</span> <span class="s1">'jugador'</span><span class="p">,</span> <span class="s1">'age_at_season'</span><span class="p">:</span> <span class="s1">'edad'</span><span class="p">,</span>
-                 <span class="s1">'goals_per90'</span><span class="p">:</span> <span class="s1">'g/90'</span><span class="p">,</span> <span class="s1">'goals_minus_xg'</span><span class="p">:</span> <span class="s1">'G−xG'</span><span class="p">,</span> <span class="s1">'market_value_eur'</span><span class="p">:</span> <span class="s1">'valor'</span><span class="p">})</span>
-    <span class="n">out</span><span class="p">[</span><span class="s1">'edad'</span><span class="p">]</span> <span class="o">=</span> <span class="n">out</span><span class="p">[</span><span class="s1">'edad'</span><span class="p">]</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">'Int64'</span><span class="p">)</span>
-    <span class="n">out</span><span class="p">[</span><span class="s1">'valor_M€'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">out</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">'valor'</span><span class="p">)</span> <span class="o">/</span> <span class="mf">1e6</span><span class="p">)</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">out</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Descriptores de calidad para perfilar candidatos (no intervienen en la afinidad)</span>
+<span class="n">DESC_COLS</span> <span class="o">=</span> <span class="p">(</span><span class="s1">'age_at_season'</span><span class="p">,</span> <span class="s1">'goals_per90'</span><span class="p">,</span> <span class="s1">'goals_minus_xg'</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=af20e0cb-be57-4aae-8597-3b22bf795fe1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Robustez-de-la-frontera-y-validaci%C3%B3n-externa-de-la-recomendaci%C3%B3n">Robustez de la frontera y validación externa de la recomendación<a class="anchor-link" href="#Robustez-de-la-frontera-y-validaci%C3%B3n-externa-de-la-recomendaci%C3%B3n">¶</a></h3><p>Dos comprobaciones cierran el motor de similitud. La primera mide si la frontera entre estilo y calidad es robusta: se reconstruye un motor paralelo sin las tres variables de carga más ofensiva que quedaron dentro del espacio (<code>assists_per90</code>, <code>xg_per90</code>, <code>shots_on_target_per90</code>) y se compara su vecindad con la del motor vigente. La segunda contrasta la recomendación contra información que nunca entró en el espacio de componentes, en particular el valor de mercado: si los vecinos de estilo se parecen en variables externas más de lo que lo haría una pareja al azar, la afinidad captura señal real y no un eco de su propia construcción.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=303a4e79-82d6-4f99-ab39-246ef537e930">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Ablación: motor paralelo SIN las tres variables ofensivas de frontera.</span>
+<span class="c1"># Mismo pipeline (mediana + escalado + PCA al 80%); compara vecindad coseno vs. motor vigente.</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.metrics.pairwise</span><span class="w"> </span><span class="kn">import</span> <span class="n">cosine_similarity</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">_topk_cos</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Índices de los k vecinos más afines por coseno, excluida la propia fila."""</span>
+    <span class="n">S</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">fill_diagonal</span><span class="p">(</span><span class="n">S</span><span class="p">,</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="o">-</span><span class="n">S</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)[:,</span> <span class="p">:</span><span class="n">k</span><span class="p">]</span>
+
+<span class="n">ABLATE</span> <span class="o">=</span> <span class="p">(</span><span class="s1">'assists_per90'</span><span class="p">,</span> <span class="s1">'xg_per90'</span><span class="p">,</span> <span class="s1">'shots_on_target_per90'</span><span class="p">)</span>
+<span class="n">KS</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+
+<span class="n">filas</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">BLOCKS</span><span class="p">:</span>
+    <span class="n">feats</span> <span class="o">=</span> <span class="n">FEATURES_BY_BLOCK</span><span class="p">[</span><span class="n">b</span><span class="p">]</span>
+    <span class="n">feats_red</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">feats</span> <span class="k">if</span> <span class="n">f</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ABLATE</span><span class="p">]</span>
+    <span class="n">n_ab</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">feats</span><span class="p">)</span> <span class="o">-</span> <span class="nb">len</span><span class="p">(</span><span class="n">feats_red</span><span class="p">)</span>
+
+    <span class="c1"># Motor reducido: pipeline idéntico y PCA al mismo umbral de varianza</span>
+    <span class="n">X_red</span> <span class="o">=</span> <span class="n">build_preprocessor</span><span class="p">()</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">blocks</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="n">feats_red</span><span class="p">])</span>
+    <span class="n">pca_full</span> <span class="o">=</span> <span class="n">PCA</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="n">RANDOM_STATE</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_red</span><span class="p">)</span>
+    <span class="n">k_red</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">searchsorted</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="n">pca_full</span><span class="o">.</span><span class="n">explained_variance_ratio_</span><span class="p">),</span> <span class="n">VAR_THRESHOLD</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">X_red_pca</span> <span class="o">=</span> <span class="n">PCA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="n">k_red</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">RANDOM_STATE</span><span class="p">)</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_red</span><span class="p">)</span>
+
+    <span class="n">base10</span> <span class="o">=</span> <span class="n">_topk_cos</span><span class="p">(</span><span class="n">X_pca</span><span class="p">[</span><span class="n">b</span><span class="p">],</span> <span class="mi">10</span><span class="p">)</span>
+    <span class="n">red10</span> <span class="o">=</span> <span class="n">_topk_cos</span><span class="p">(</span><span class="n">X_red_pca</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+
+    <span class="n">sol</span> <span class="o">=</span> <span class="p">{</span><span class="n">K</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">([</span><span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">base10</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="p">:</span><span class="n">K</span><span class="p">])</span> <span class="o">&amp;</span> <span class="nb">set</span><span class="p">(</span><span class="n">red10</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="p">:</span><span class="n">K</span><span class="p">]))</span>
+                             <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">base10</span><span class="p">))]))</span> <span class="k">for</span> <span class="n">K</span> <span class="ow">in</span> <span class="n">KS</span><span class="p">}</span>
+    <span class="n">top1</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">base10</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">red10</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">])</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
+
+    <span class="n">filas</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'bloque'</span><span class="p">:</span> <span class="n">b</span><span class="p">,</span> <span class="s1">'abladas'</span><span class="p">:</span> <span class="n">n_ab</span><span class="p">,</span> <span class="s1">'k_base'</span><span class="p">:</span> <span class="n">n_components</span><span class="p">[</span><span class="n">b</span><span class="p">],</span> <span class="s1">'k_red'</span><span class="p">:</span> <span class="n">k_red</span><span class="p">,</span>
+                  <span class="s1">'solap@5'</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="mi">2</span><span class="p">),</span> <span class="s1">'solap@10'</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="mi">10</span><span class="p">],</span> <span class="mi">2</span><span class="p">),</span>
+                  <span class="s1">'top1_igual_%'</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">top1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)})</span>
+
+<span class="n">ablacion</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">filas</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'bloque'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ablacion</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>        abladas  k_base  k_red  solap@5  solap@10  top1_igual_%
+bloque                                                         
+GK            0       5      5    5.000    10.000       100.000
+DF            3      17     17    3.860     8.200        69.000
+MD            3      17     17    4.060     8.430        76.400
+FW            3      17     17    4.080     8.460        74.700
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b7b3a0f9-e05e-490f-b0ae-d901380004ce">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ¿Predicen los vecinos coseno (top-10) variables que NUNCA entraron en X_pca?</span>
+<span class="c1"># Razón = distancia media a los vecinos / distancia media de pareja aleatoria del bloque.</span>
+<span class="c1"># Razón &lt; 1 = los vecinos de estilo se parecen más que el azar.</span>
+<span class="n">EXT_VARS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'age_at_season'</span><span class="p">,</span> <span class="s1">'goals_per90'</span><span class="p">,</span> <span class="s1">'goals_minus_xg'</span><span class="p">,</span> <span class="s1">'market_value_eur'</span><span class="p">]</span>
+
+<span class="n">filas</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">BLOCKS</span><span class="p">:</span>
+    <span class="n">base10</span> <span class="o">=</span> <span class="n">_topk_cos</span><span class="p">(</span><span class="n">X_pca</span><span class="p">[</span><span class="n">b</span><span class="p">],</span> <span class="mi">10</span><span class="p">)</span>
+    <span class="n">bb</span> <span class="o">=</span> <span class="n">blocks</span><span class="p">[</span><span class="n">b</span><span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">mv</span> <span class="o">=</span> <span class="n">ids</span><span class="p">[</span><span class="n">b</span><span class="p">]</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">market_values</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">'player_id'</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">'left'</span><span class="p">)[</span><span class="s1">'market_value_eur'</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+    <span class="n">razones</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">EXT_VARS</span><span class="p">:</span>
+        <span class="n">vals</span> <span class="o">=</span> <span class="n">mv</span> <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="s1">'market_value_eur'</span> <span class="k">else</span> <span class="n">bb</span><span class="p">[</span><span class="n">v</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(</span><span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+        <span class="c1"># Numerador: distancia media de cada jugador a sus 10 vecinos (saltando NaN)</span>
+        <span class="n">terminos</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">base10</span><span class="p">)):</span>
+            <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">vals</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span>
+                <span class="k">continue</span>
+            <span class="n">vec</span> <span class="o">=</span> <span class="n">vals</span><span class="p">[</span><span class="n">base10</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span>
+            <span class="n">vec</span> <span class="o">=</span> <span class="n">vec</span><span class="p">[</span><span class="o">~</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">vec</span><span class="p">)]</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">vec</span><span class="p">):</span>
+                <span class="n">terminos</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">vec</span> <span class="o">-</span> <span class="n">vals</span><span class="p">[</span><span class="n">i</span><span class="p">])))</span>
+        <span class="n">d_vecinos</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">terminos</span><span class="p">))</span>
+
+        <span class="c1"># Denominador: distancia media de pareja aleatoria (exacta, fuera de la diagonal)</span>
+        <span class="n">good</span> <span class="o">=</span> <span class="n">vals</span><span class="p">[</span><span class="o">~</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">vals</span><span class="p">)]</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">good</span><span class="p">)</span>
+        <span class="n">M</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">good</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">]</span> <span class="o">-</span> <span class="n">good</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="p">:])</span>
+        <span class="n">d_azar</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">M</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="o">-</span> <span class="n">n</span><span class="p">))</span>
+
+        <span class="n">razones</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">d_vecinos</span> <span class="o">/</span> <span class="n">d_azar</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+    <span class="n">filas</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'bloque'</span><span class="p">:</span> <span class="n">b</span><span class="p">,</span> <span class="o">**</span><span class="n">razones</span><span class="p">})</span>
+
+<span class="n">validacion_externa</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">filas</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'bloque'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">validacion_externa</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>        age_at_season  goals_per90  goals_minus_xg  market_value_eur
+bloque                                                              
+GK              1.000        0.750           0.850             0.920
+DF              0.950        0.810           0.980             0.840
+MD              0.920        0.740           0.970             0.840
+FW              0.930        0.740           0.940             0.720
+</pre>
 </div>
 </div>
 </div>
@@ -10371,17 +10505,56 @@ Cobertura sobre el universo de clustering: 92.6%
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d8894c8e-6018-45ef-83f4-1a9690435114">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">consulta_similar</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Envoltorio de presentación sobre el motor del módulo: cabecera del objetivo</span>
+<span class="sd">    + tabla de candidatos con nombres legibles (capa B, replica la cosmética de nb05)."""</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">bloque_de</span><span class="p">(</span><span class="n">sim_index</span><span class="p">,</span> <span class="n">nombre</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">b</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">cand</span> <span class="o">=</span> <span class="n">clusters_df</span><span class="p">[</span><span class="n">clusters_df</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">case</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">na</span><span class="o">=</span><span class="kc">False</span><span class="p">)]</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s2">"sin coincidencias"</span> <span class="k">if</span> <span class="n">cand</span><span class="o">.</span><span class="n">empty</span> <span class="k">else</span> <span class="s2">"¿quizás? "</span> <span class="o">+</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cand</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"'</span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s2">' no encontrado. </span><span class="si">{</span><span class="n">msg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="n">res</span> <span class="o">=</span> <span class="n">jugadores_similares</span><span class="p">(</span><span class="n">sim_index</span><span class="p">,</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">descriptores</span><span class="o">=</span><span class="n">df</span><span class="p">,</span>
+                              <span class="n">market_values</span><span class="o">=</span><span class="n">market_values</span><span class="p">,</span> <span class="n">desc_cols</span><span class="o">=</span><span class="n">DESC_COLS</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="n">top_n</span><span class="p">)</span>
+
+    <span class="n">meta</span> <span class="o">=</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'meta'</span><span class="p">]</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">sim_index</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="s1">'pos'</span><span class="p">][</span><span class="n">nombre</span><span class="p">]</span>
+    <span class="n">obj</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]</span> <span class="o">==</span> <span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'player_id'</span><span class="p">]]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">obj_mv</span> <span class="o">=</span> <span class="n">market_values</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">market_values</span><span class="p">[</span><span class="s1">'player_id'</span><span class="p">]</span> <span class="o">==</span> <span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'player_id'</span><span class="p">],</span> <span class="s1">'market_value_eur'</span><span class="p">]</span>
+    <span class="n">obj_mv</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">obj_mv</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="mf">1e6</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">M€"</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">obj_mv</span><span class="p">)</span> <span class="k">else</span> <span class="s2">"s/d"</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"🎯 </span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'archetype'</span><span class="p">]</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">meta</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">'liga'</span><span class="p">]</span><span class="si">}</span><span class="s2"> · </span><span class="si">{</span><span class="n">obj_mv</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"   </span><span class="si">{</span><span class="n">obj</span><span class="p">[</span><span class="s1">'age_at_season'</span><span class="p">]</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2"> años · </span><span class="si">{</span><span class="n">obj</span><span class="p">[</span><span class="s1">'goals_per90'</span><span class="p">]</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> g/90 · G−xG </span><span class="si">{</span><span class="n">obj</span><span class="p">[</span><span class="s1">'goals_minus_xg'</span><span class="p">]</span><span class="si">:</span><span class="s2">+.2f</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+
+    <span class="n">out</span> <span class="o">=</span> <span class="n">res</span><span class="p">[[</span><span class="s1">'short_name'</span><span class="p">,</span> <span class="s1">'afinidad'</span><span class="p">,</span> <span class="s1">'archetype'</span><span class="p">,</span> <span class="s1">'liga'</span><span class="p">,</span> <span class="o">*</span><span class="n">DESC_COLS</span><span class="p">,</span> <span class="s1">'valor_M'</span><span class="p">]]</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
+        <span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'short_name'</span><span class="p">:</span> <span class="s1">'jugador'</span><span class="p">,</span> <span class="s1">'age_at_season'</span><span class="p">:</span> <span class="s1">'edad'</span><span class="p">,</span>
+                 <span class="s1">'goals_per90'</span><span class="p">:</span> <span class="s1">'g/90'</span><span class="p">,</span> <span class="s1">'goals_minus_xg'</span><span class="p">:</span> <span class="s1">'G−xG'</span><span class="p">,</span> <span class="s1">'valor_M'</span><span class="p">:</span> <span class="s1">'valor_M€'</span><span class="p">})</span>
+    <span class="n">out</span><span class="p">[</span><span class="s1">'edad'</span><span class="p">]</span> <span class="o">=</span> <span class="n">out</span><span class="p">[</span><span class="s1">'edad'</span><span class="p">]</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">'Int64'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">out</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c632d0bf-9660-493f-9c64-7dd5db746926">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Caso 1: sustituir una baja</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">sustituir_baja</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">edad_max</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">valor_max</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">ligas</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="n">jugadores_similares</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">consulta_similar</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">res</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">return</span> <span class="kc">None</span>
     <span class="k">if</span> <span class="n">edad_max</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>  <span class="n">res</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="n">res</span><span class="p">[</span><span class="s1">'edad'</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">edad_max</span><span class="p">]</span>
@@ -10389,8 +10562,8 @@ Cobertura sobre el universo de clustering: 92.6%
     <span class="k">if</span> <span class="n">ligas</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>     <span class="n">res</span> <span class="o">=</span> <span class="n">res</span><span class="p">[</span><span class="n">res</span><span class="p">[</span><span class="s1">'liga'</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">ligas</span><span class="p">)]</span>
     <span class="k">return</span> <span class="n">res</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">top_n</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-<span class="c1"># Escenario: el club pierde a Isco y busca un relevo de su perfil, menor de 26 años, pero un presupuesto de 20 millones </span>
-<span class="n">sustituir_baja</span><span class="p">(</span><span class="s1">'Isco'</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">edad_max</span><span class="o">=</span><span class="mi">26</span><span class="p">,</span> <span class="n">valor_max</span><span class="o">=</span> <span class="mf">20.0</span><span class="p">)</span>
+<span class="c1"># Escenario: el club pierde a Isco y busca un relevo de su perfil, menor de 26 años, presupuesto de 20 millones</span>
+<span class="n">sustituir_baja</span><span class="p">(</span><span class="s1">'Isco'</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">edad_max</span><span class="o">=</span><span class="mi">26</span><span class="p">,</span> <span class="n">valor_max</span><span class="o">=</span><span class="mf">20.0</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -10410,7 +10583,7 @@ Cobertura sobre el universo de clustering: 92.6%
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10541,13 +10714,13 @@ Cobertura sobre el universo de clustering: 92.6%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Caso 2: oportunidad de mercado</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">oportunidad_mercado</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">edad_max</span><span class="o">=</span><span class="mi">24</span><span class="p">,</span> <span class="n">valor_max</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                         <span class="n">afinidad_min</span><span class="o">=</span><span class="mi">70</span><span class="p">,</span> <span class="n">sobrerend_min</span><span class="o">=</span><span class="mf">0.0</span><span class="p">):</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="n">jugadores_similares</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">consulta_similar</span><span class="p">(</span><span class="n">nombre</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">res</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="k">return</span> <span class="kc">None</span>
     <span class="n">obj_liga</span> <span class="o">=</span> <span class="n">clusters_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">clusters_df</span><span class="p">[</span><span class="s1">'short_name'</span><span class="p">]</span> <span class="o">==</span> <span class="n">nombre</span><span class="p">,</span> <span class="s1">'liga'</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -10556,7 +10729,7 @@ Cobertura sobre el universo de clustering: 92.6%
     <span class="k">if</span> <span class="n">valor_max</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span> <span class="n">f</span> <span class="o">&amp;=</span> <span class="p">(</span><span class="n">res</span><span class="p">[</span><span class="s1">'valor_M€'</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">valor_max</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="n">f</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">top_n</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-<span class="c1"># Escenario: perfil tipo Mkhitaryan, joven (≤24), fuera de su liga, rindiendo por encima de su xG y hasta 60 millones de valor de mercado</span>
+<span class="c1"># Escenario: perfil tipo Mkhitaryan, joven (≤24), fuera de su liga, rindiendo sobre su xG, hasta 60M de valor</span>
 <span class="n">oportunidad_mercado</span><span class="p">(</span><span class="s1">'H. Mkhitaryan'</span><span class="p">,</span> <span class="n">top_n</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">edad_max</span><span class="o">=</span><span class="mi">24</span><span class="p">,</span> <span class="n">valor_max</span><span class="o">=</span><span class="mf">60.0</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -10577,7 +10750,7 @@ Cobertura sobre el universo de clustering: 92.6%
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10734,7 +10907,7 @@ Cobertura sobre el universo de clustering: 92.6%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.stats</span><span class="w"> </span><span class="kn">import</span> <span class="n">percentileofscore</span>
@@ -10826,7 +10999,7 @@ progressive_passes_per90 10.020         40
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">mplsoccer</span><span class="w"> </span><span class="kn">import</span> <span class="n">PyPizza</span>
@@ -10837,7 +11010,7 @@ progressive_passes_per90 10.020         40
               <span class="s1">'Progresión'</span><span class="p">:</span> <span class="s1">'#e9c46a'</span><span class="p">,</span> <span class="s1">'Juego aéreo'</span><span class="p">:</span> <span class="s1">'#f4a261'</span><span class="p">}</span>
 
 <span class="k">def</span><span class="w"> </span><span class="nf">ficha_comparativa</span><span class="p">(</span><span class="n">objetivo</span><span class="p">,</span> <span class="n">similar</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="n">b</span> <span class="o">=</span> <span class="n">b</span> <span class="ow">or</span> <span class="n">_bloque_de</span><span class="p">(</span><span class="n">objetivo</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">b</span> <span class="ow">or</span> <span class="n">bloque_de</span><span class="p">(</span><span class="n">sim_index</span><span class="p">,</span> <span class="n">objetivo</span><span class="p">)</span>
     <span class="n">feats</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">grp</span> <span class="ow">in</span> <span class="n">PIZZA</span><span class="p">[</span><span class="n">b</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">grp</span><span class="p">]</span>
     <span class="n">slice_colors</span> <span class="o">=</span> <span class="p">[</span><span class="n">FASE_COLOR</span><span class="p">[</span><span class="n">fase</span><span class="p">]</span> <span class="k">for</span> <span class="n">fase</span><span class="p">,</span> <span class="n">grp</span> <span class="ow">in</span> <span class="n">PIZZA</span><span class="p">[</span><span class="n">b</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">grp</span><span class="p">]</span>
     <span class="n">params</span> <span class="o">=</span> <span class="p">[</span><span class="n">LABELS</span><span class="p">[</span><span class="n">f</span><span class="p">]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">feats</span><span class="p">]</span>
@@ -10894,7 +11067,7 @@ progressive_passes_per90 10.020         40
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">pares_mas_afines</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
@@ -10977,7 +11150,7 @@ Marcos Alonso M. Halstenberg Carrilero ofensivo    91.700
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">_pizza_ax</span><span class="p">(</span><span class="n">ax</span><span class="p">,</span> <span class="n">objetivo</span><span class="p">,</span> <span class="n">similar</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
@@ -11005,7 +11178,7 @@ Marcos Alonso M. Halstenberg Carrilero ofensivo    91.700
     <span class="k">return</span> <span class="n">afin</span>
 
 <span class="k">def</span><span class="w"> </span><span class="nf">panel_fichas</span><span class="p">(</span><span class="n">objetivo</span><span class="p">,</span> <span class="n">gemelo</span><span class="p">,</span> <span class="n">contraste</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="n">b</span> <span class="o">=</span> <span class="n">b</span> <span class="ow">or</span> <span class="n">_bloque_de</span><span class="p">(</span><span class="n">objetivo</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">b</span> <span class="ow">or</span> <span class="n">bloque_de</span><span class="p">(</span><span class="n">sim_index</span><span class="p">,</span> <span class="n">objetivo</span><span class="p">)</span>
     <span class="n">fig</span><span class="p">,</span> <span class="n">axs</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mf">9.5</span><span class="p">),</span> <span class="n">subplot_kw</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">projection</span><span class="o">=</span><span class="s1">'polar'</span><span class="p">))</span>
     <span class="n">fig</span><span class="o">.</span><span class="n">patch</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">'#f7f7f5'</span><span class="p">)</span>
     <span class="n">a1</span> <span class="o">=</span> <span class="n">_pizza_ax</span><span class="p">(</span><span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">objetivo</span><span class="p">,</span> <span class="n">gemelo</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
@@ -11027,7 +11200,7 @@ Marcos Alonso M. Halstenberg Carrilero ofensivo    91.700
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">b</span><span class="p">,</span> <span class="n">anc</span> <span class="o">=</span> <span class="s1">'FW'</span><span class="p">,</span> <span class="s1">'J. Iličić'</span>
@@ -11102,7 +11275,7 @@ Borja Bastón Delantero referencia -72.800
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Persistencia del motor de similitud</span>
