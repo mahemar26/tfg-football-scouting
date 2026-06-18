@@ -16,10 +16,6 @@ DROP TABLE IF EXISTS bronze.wyscout_referees CASCADE;
 DROP TABLE IF EXISTS bronze.wyscout_players CASCADE;
 DROP TABLE IF EXISTS bronze.wyscout_teams CASCADE;
 DROP TABLE IF EXISTS bronze.wyscout_competitions CASCADE;
-DROP TABLE IF EXISTS bronze.transfermarkt_appearances CASCADE;
-DROP TABLE IF EXISTS bronze.transfermarkt_valuations CASCADE;
-DROP TABLE IF EXISTS bronze.transfermarkt_players CASCADE;
-DROP TABLE IF EXISTS bronze.kaggle_fbref_player_season CASCADE;
 DROP TABLE IF EXISTS bronze.etl_load_log CASCADE;
 
 CREATE TABLE bronze.wyscout_competitions (
@@ -152,90 +148,9 @@ CREATE INDEX idx_events_match_sec ON bronze.wyscout_events(match_id, event_sec);
 CREATE INDEX idx_events_shots     ON bronze.wyscout_events(match_id, player_id, event_sec) 
     WHERE event_name = 'Shot';
 
--- ============================================================
--- 8. TRANSFERMARKT: Jugadores
--- ============================================================
-CREATE TABLE bronze.transfermarkt_players (
-    tm_player_id        INTEGER PRIMARY KEY,
-    name                TEXT,
-    pretty_name         TEXT,
-    country_of_birth    TEXT,
-    city_of_birth       TEXT,
-    country_of_citizenship TEXT,
-    date_of_birth       DATE,
-    position            TEXT,
-    sub_position        TEXT,
-    foot                TEXT,
-    height_in_cm        SMALLINT,
-    current_club_id     INTEGER,
-    current_club_name   TEXT,
-    agent_name          TEXT,
-    image_url           TEXT,
-    url                 TEXT,
-    loaded_at           TIMESTAMPTZ NOT NULL DEFAULT now()
-);
 
 -- ============================================================
--- 9. TRANSFERMARKT: Valoraciones
--- ============================================================
-CREATE TABLE bronze.transfermarkt_valuations (
-    tm_player_id        INTEGER NOT NULL,
-    valuation_date      DATE NOT NULL,
-    market_value_eur    BIGINT,
-    current_club_id     INTEGER,
-    player_club_domestic_competition_id TEXT,
-    loaded_at           TIMESTAMPTZ NOT NULL DEFAULT now(),
-    PRIMARY KEY (tm_player_id, valuation_date)
-);
-
-CREATE INDEX idx_tm_val_date ON bronze.transfermarkt_valuations(valuation_date);
-
--- ============================================================
--- 10. TRANSFERMARKT: Apariciones
--- ============================================================
-CREATE TABLE bronze.transfermarkt_appearances (
-    tm_player_id        INTEGER NOT NULL,
-    game_id             INTEGER NOT NULL,
-    competition_id      TEXT,
-    date                DATE,
-    player_club_id      INTEGER,
-    player_current_club_id INTEGER,
-    minutes_played      SMALLINT,
-    goals               SMALLINT,
-    assists             SMALLINT,
-    yellow_cards        SMALLINT,
-    red_cards           SMALLINT,
-    loaded_at           TIMESTAMPTZ NOT NULL DEFAULT now(),
-    PRIMARY KEY (tm_player_id, game_id)
-);
-
--- ============================================================
--- 11. KAGGLE FBREF: Estadísticas por jugador-temporada (21/22 + 22/23)
--- ============================================================
-CREATE TABLE bronze.kaggle_fbref_player_season (
-    player_name         TEXT NOT NULL,
-    nation              TEXT,
-    pos                 TEXT,
-    squad               TEXT NOT NULL,
-    comp                TEXT,
-    age                 TEXT,
-    born                SMALLINT,
-    season              TEXT NOT NULL,
-    minutes_90s         NUMERIC(6,2),
-    matches_played      SMALLINT,
-    starts              SMALLINT,
-    minutes             INTEGER,
-    stats               JSONB NOT NULL,
-    source_file         TEXT NOT NULL,
-    loaded_at           TIMESTAMPTZ NOT NULL DEFAULT now(),
-    PRIMARY KEY (player_name, squad, season)
-);
-
-CREATE INDEX idx_kaggle_season  ON bronze.kaggle_fbref_player_season(season);
-CREATE INDEX idx_kaggle_minutes ON bronze.kaggle_fbref_player_season(minutes);
-
--- ============================================================
--- 12. CONTROL ETL: Registro de cargas
+-- 8. CONTROL ETL: Registro de cargas
 -- ============================================================
 CREATE TABLE bronze.etl_load_log (
     load_id             SERIAL PRIMARY KEY,
@@ -289,25 +204,6 @@ FROM bronze.wyscout_events e
 LEFT JOIN bronze.wyscout_matches m ON e.match_id = m.wy_match_id
 WHERE m.wy_match_id IS NULL;
 
--- Pares temporales Kaggle (predicción t→t+1)
-CREATE OR REPLACE VIEW bronze.v_kaggle_temporal_pairs AS
-SELECT 
-    t1.player_name,
-    t1.squad AS squad_2122,
-    t2.squad AS squad_2223,
-    t1.comp AS comp_2122,
-    t2.comp AS comp_2223,
-    t1.minutes AS min_2122,
-    t2.minutes AS min_2223,
-    t1.pos
-FROM bronze.kaggle_fbref_player_season t1
-JOIN bronze.kaggle_fbref_player_season t2 
-    ON t1.player_name = t2.player_name
-WHERE t1.season = '2021-2022' 
-  AND t2.season = '2022-2023'
-  AND t1.minutes >= 900
-  AND t2.minutes >= 900;
-
 -- ============================================================
 -- VERIFICACIÓN RÁPIDA
 -- ============================================================
@@ -318,4 +214,4 @@ WHERE schemaname = 'bronze'
 ORDER BY tablename;
 
 COMMENT ON SCHEMA bronze IS 
-'Capa de datos crudos. Sin transformaciones. Fuentes: Wyscout (Pappalardo 2019), Transfermarkt (Kaggle), FBref CSVs (Kaggle).';
+'Capa de datos crudos de Wyscout (Pappalardo 2019). Sin transformaciones.';
